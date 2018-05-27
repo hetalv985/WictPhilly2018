@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1MN-4i-ekx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Brandon_bld.otf">
+            <string>BrandonGrotesque-Bold</string>
+        </array>
+        <array key="Brandon_reg.otf">
+            <string>BrandonGrotesque-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--About-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AboutViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9o-r4-4Fc">
+                                <rect key="frame" x="16" y="16" width="343" height="486"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Almost half of American adults are using digital voice assistants on their smartphones, in their cars and on other devices such as Amazon Echo and Google Home. The advances in recent years of technologies to support voice and conversational user interfaces are transporting our businesses and society into a new age of voice control.
+Join us at WICT TIO 2018 and meet some of the experts who will demo products and talk about how voice and conversational user interfaces are designed, what technologies enable them, how they are being used, and why they are changing our lives.
+Our event is open to the public, including men and women. Students under 18 must be supervised by an adult.
+REGISTER TODAY!
+http://www.wictphiladelphia.org/event/tio2018</string>
+                                <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o9o-r4-4Fc" secondAttribute="trailing" constant="16" id="aHH-1W-fHK"/>
+                            <constraint firstItem="o9o-r4-4Fc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="kSy-bb-zOO"/>
+                            <constraint firstItem="o9o-r4-4Fc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xRD-IF-bsq"/>
+                            <constraint firstItem="o9o-r4-4Fc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zVp-F2-gvT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" id="ahs-zo-WXM">
+                        <barButtonItem key="rightBarButtonItem" title="Register" id="FuL-6m-XNL"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911.2" y="31.934032983508249"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="dWI-yQ-ipL">
+            <objects>
+                <viewController id="bWf-Fp-QNb" customClass="ScheduleViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DWC-QK-lvr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="eac-8Z-XPK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="502"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Header" textLabel="lbr-m6-TUu" style="IBUITableViewCellStyleDefault" id="NSw-0H-TNy">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NSw-0H-TNy" id="31Y-bH-G5G">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lbr-m6-TUu">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="17"/>
+                                                    <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.81960784313725488" green="0.82352941176470584" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="scheduleCell" rowHeight="193" id="msi-9x-QuR">
+                                        <rect key="frame" x="0.0" y="99.5" width="375" height="193"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="msi-9x-QuR" id="eRk-ez-iy0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="192.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="1" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAI-Sb-qyv">
+                                                    <rect key="frame" x="15" y="13" width="345" height="24.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="17"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="2" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCB-Z4-FAg">
+                                                    <rect key="frame" x="15" y="45.5" width="345" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="3" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Speakers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQe-d7-QNa">
+                                                    <rect key="frame" x="15" y="83" width="345" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="4" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JI6-jK-qgd">
+                                                    <rect key="frame" x="15" y="120.5" width="345" height="45.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="SCB-Z4-FAg" firstAttribute="top" secondItem="SAI-Sb-qyv" secondAttribute="bottom" constant="8" id="Bg1-zb-EjJ"/>
+                                                <constraint firstItem="JI6-jK-qgd" firstAttribute="leading" secondItem="eRk-ez-iy0" secondAttribute="leadingMargin" id="DtE-g9-q3M"/>
+                                                <constraint firstItem="SAI-Sb-qyv" firstAttribute="top" secondItem="eRk-ez-iy0" secondAttribute="topMargin" constant="2" id="EEB-1m-8z3"/>
+                                                <constraint firstItem="SAI-Sb-qyv" firstAttribute="leading" secondItem="eRk-ez-iy0" secondAttribute="leadingMargin" id="EMY-bh-he0"/>
+                                                <constraint firstItem="SCB-Z4-FAg" firstAttribute="trailing" secondItem="eRk-ez-iy0" secondAttribute="trailingMargin" id="Jko-12-udQ"/>
+                                                <constraint firstItem="SCB-Z4-FAg" firstAttribute="leading" secondItem="eRk-ez-iy0" secondAttribute="leadingMargin" id="Nqc-Zj-rJ7"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="JI6-jK-qgd" secondAttribute="bottom" constant="16" id="PUQ-w7-zjx"/>
+                                                <constraint firstItem="SAI-Sb-qyv" firstAttribute="trailing" secondItem="eRk-ez-iy0" secondAttribute="trailingMargin" id="ZHB-rT-RIw"/>
+                                                <constraint firstItem="fQe-d7-QNa" firstAttribute="leading" secondItem="eRk-ez-iy0" secondAttribute="leadingMargin" id="hQr-Sa-qz3"/>
+                                                <constraint firstItem="fQe-d7-QNa" firstAttribute="top" secondItem="SCB-Z4-FAg" secondAttribute="bottom" constant="16" id="n5I-sK-iEJ"/>
+                                                <constraint firstItem="JI6-jK-qgd" firstAttribute="trailing" secondItem="eRk-ez-iy0" secondAttribute="trailingMargin" id="qeE-kf-tcO"/>
+                                                <constraint firstItem="JI6-jK-qgd" firstAttribute="top" secondItem="fQe-d7-QNa" secondAttribute="bottom" constant="16" id="xdq-0O-3Au"/>
+                                                <constraint firstItem="fQe-d7-QNa" firstAttribute="trailing" secondItem="eRk-ez-iy0" secondAttribute="trailingMargin" id="yWG-ng-0Mn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="bWf-Fp-QNb" id="48h-yw-4dQ"/>
+                                    <outlet property="delegate" destination="bWf-Fp-QNb" id="72P-eh-RhJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eac-8Z-XPK" firstAttribute="leading" secondItem="Mzc-1k-pEl" secondAttribute="leading" id="U2O-O3-uWu"/>
+                            <constraint firstItem="eac-8Z-XPK" firstAttribute="top" secondItem="Mzc-1k-pEl" secondAttribute="top" id="lZf-TW-T24"/>
+                            <constraint firstItem="eac-8Z-XPK" firstAttribute="trailing" secondItem="Mzc-1k-pEl" secondAttribute="trailing" id="u5S-E9-1NA"/>
+                            <constraint firstItem="eac-8Z-XPK" firstAttribute="bottom" secondItem="Mzc-1k-pEl" secondAttribute="bottom" id="vut-m9-hpi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mzc-1k-pEl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Schedule" id="QCR-fc-My8">
+                        <barButtonItem key="rightBarButtonItem" title="Register" id="PBL-MN-fHZ"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="scheduleTableView" destination="eac-8Z-XPK" id="eS3-bV-jby"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9dX-ks-c3U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1909.5999999999999" y="793.8530734632684"/>
+        </scene>
+        <!--Locate-->
+        <scene sceneID="Dio-bO-qSA">
+            <objects>
+                <viewController id="hGh-xy-gku" customClass="LocateViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zek-f9-qeC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join us for WICT Philadelphia Tech It Out event at: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1v-dN-0ur">
+                                <rect key="frame" x="16" y="16" width="343" height="24.5"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="17"/>
+                                <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="r3f-D6-w6h">
+                                <rect key="frame" x="16" y="48.5" width="343" height="38"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="18"/>
+                                <state key="normal" title="Villanova University, 800 E Lancaster Avenue, Villanova, PA, 19085"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJM-ar-Nud">
+                                <rect key="frame" x="16" y="106.5" width="343" height="251"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="251" id="6HB-wJ-Ueh"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="map"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6o-P0-cYK">
+                                <rect key="frame" x="16" y="394.5" width="343" height="40"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.078431372550000003" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nmu-5X-KWE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="17"/>
+                                <state key="normal" title="University Map">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oyg-2C-vI0" kind="show" id="v2w-1J-hJK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sJM-ar-Nud" firstAttribute="top" secondItem="r3f-D6-w6h" secondAttribute="bottom" constant="20" id="3ZX-9l-c0p"/>
+                            <constraint firstItem="ZQn-dF-QK7" firstAttribute="trailing" secondItem="r3f-D6-w6h" secondAttribute="trailing" constant="16" id="3ti-LP-T3F"/>
+                            <constraint firstItem="r3f-D6-w6h" firstAttribute="leading" secondItem="ZQn-dF-QK7" secondAttribute="leading" constant="16" id="72y-RC-McF"/>
+                            <constraint firstItem="ZQn-dF-QK7" firstAttribute="trailing" secondItem="q6o-P0-cYK" secondAttribute="trailing" constant="16" id="8Ze-yn-ip4"/>
+                            <constraint firstItem="X1v-dN-0ur" firstAttribute="leading" secondItem="ZQn-dF-QK7" secondAttribute="leading" constant="16" id="EoA-XN-0Bt"/>
+                            <constraint firstItem="ZQn-dF-QK7" firstAttribute="trailing" secondItem="sJM-ar-Nud" secondAttribute="trailing" constant="16" id="Jm7-sQ-Wyq"/>
+                            <constraint firstItem="X1v-dN-0ur" firstAttribute="top" secondItem="ZQn-dF-QK7" secondAttribute="top" constant="16" id="Kc8-IZ-nyf"/>
+                            <constraint firstItem="q6o-P0-cYK" firstAttribute="leading" secondItem="ZQn-dF-QK7" secondAttribute="leading" constant="16" id="Nza-3l-Bnu"/>
+                            <constraint firstItem="ZQn-dF-QK7" firstAttribute="trailing" secondItem="X1v-dN-0ur" secondAttribute="trailing" constant="16" id="Q3s-MD-x3f"/>
+                            <constraint firstItem="q6o-P0-cYK" firstAttribute="top" secondItem="sJM-ar-Nud" secondAttribute="bottom" constant="37" id="Q8X-g2-0Pa"/>
+                            <constraint firstItem="sJM-ar-Nud" firstAttribute="leading" secondItem="ZQn-dF-QK7" secondAttribute="leading" constant="16" id="ZXB-RE-mqJ"/>
+                            <constraint firstItem="r3f-D6-w6h" firstAttribute="top" secondItem="X1v-dN-0ur" secondAttribute="bottom" constant="8" id="zCX-bV-O4d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZQn-dF-QK7"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Locate" id="ECt-KR-EJE">
+                        <barButtonItem key="rightBarButtonItem" title="Register" id="5f0-rL-jHn"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xky-0f-JvJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1909.5999999999999" y="1515.2923538230887"/>
+        </scene>
+        <!--University Map-->
+        <scene sceneID="zic-G1-FCD">
+            <objects>
+                <viewController id="oyg-2C-vI0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DQE-ID-amQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="universitymap" translatesAutoresizingMaskIntoConstraints="NO" id="Eyy-eU-EZs">
+                                <rect key="frame" x="16" y="16" width="343" height="464"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mbs-Ya-jcT" firstAttribute="trailing" secondItem="Eyy-eU-EZs" secondAttribute="trailing" constant="16" id="397-OE-qtU"/>
+                            <constraint firstItem="Eyy-eU-EZs" firstAttribute="top" secondItem="Mbs-Ya-jcT" secondAttribute="top" constant="16" id="GfF-Wk-aOm"/>
+                            <constraint firstItem="Mbs-Ya-jcT" firstAttribute="bottom" secondItem="Eyy-eU-EZs" secondAttribute="bottom" constant="16" id="te8-T8-pF4"/>
+                            <constraint firstItem="Eyy-eU-EZs" firstAttribute="leading" secondItem="Mbs-Ya-jcT" secondAttribute="leading" constant="16" id="xzu-1Q-j7Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mbs-Ya-jcT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="University Map" id="8kR-i5-lHM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rbe-WK-vUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2773.5999999999999" y="1514.392803598201"/>
+        </scene>
+        <!--Sponsors-->
+        <scene sceneID="uyY-kC-kzI">
+            <objects>
+                <viewController id="RJI-b9-WEB" customClass="SponsorsViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7b8-UY-DgC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="RpJ-yA-v3d"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sponsors" id="XeZ-sg-leO">
+                        <barButtonItem key="rightBarButtonItem" title="Register" id="pDr-3M-H3I"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WsT-eN-2BL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1937" y="2247"/>
+        </scene>
+        <!--Bios-->
+        <scene sceneID="HQ3-n5-E8g">
+            <objects>
+                <viewController id="rZx-PC-Eds" customClass="BiosViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0KW-L7-jbp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yQh-Ij-mf5">
+                                <rect key="frame" x="16" y="0.0" width="343" height="502"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LrP-fb-wBY">
+                                    <size key="itemSize" width="161" height="189"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="8" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="biosCell" id="kMf-kx-m00">
+                                        <rect key="frame" x="0.0" y="8" width="161" height="189"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="161" height="189"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H7H-OU-xzi">
+                                                    <rect key="frame" x="52.5" y="20" width="56" height="56"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="56" id="ZpW-tu-M3f"/>
+                                                        <constraint firstAttribute="width" constant="56" id="fwS-nB-Y81"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMN-QT-kDp">
+                                                    <rect key="frame" x="20" y="88" width="121" height="21.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="41" id="pDO-Qy-OmT"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="top" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gz5-l8-yST">
+                                                    <rect key="frame" x="20" y="118" width="121" height="51"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="H7H-OU-xzi" firstAttribute="centerX" secondItem="kMf-kx-m00" secondAttribute="centerX" id="9iP-EC-5sm"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="gMN-QT-kDp" secondAttribute="trailing" constant="12" id="Ch9-dr-pKe"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="Gz5-l8-yST" secondAttribute="bottom" constant="12" id="FY4-Io-M3v"/>
+                                            <constraint firstItem="Gz5-l8-yST" firstAttribute="top" secondItem="gMN-QT-kDp" secondAttribute="bottom" constant="8" id="HwL-CR-mH1"/>
+                                            <constraint firstItem="Gz5-l8-yST" firstAttribute="leading" secondItem="kMf-kx-m00" secondAttribute="leadingMargin" constant="12" id="OUn-yv-Mr2"/>
+                                            <constraint firstItem="H7H-OU-xzi" firstAttribute="top" secondItem="kMf-kx-m00" secondAttribute="topMargin" constant="12" id="QNz-DX-iiK"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Gz5-l8-yST" secondAttribute="trailing" constant="12" id="hMR-KH-cmE"/>
+                                            <constraint firstItem="gMN-QT-kDp" firstAttribute="leading" secondItem="kMf-kx-m00" secondAttribute="leadingMargin" constant="12" id="ibd-K5-aqx"/>
+                                            <constraint firstItem="gMN-QT-kDp" firstAttribute="top" secondItem="H7H-OU-xzi" secondAttribute="bottom" constant="12" id="xkk-R3-TgA"/>
+                                        </constraints>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="rZx-PC-Eds" id="mEa-3L-xul"/>
+                                    <outlet property="delegate" destination="rZx-PC-Eds" id="akm-7v-0th"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yQh-Ij-mf5" firstAttribute="trailing" secondItem="o1q-rf-bRU" secondAttribute="trailing" constant="-16" id="IK5-mh-jM5"/>
+                            <constraint firstItem="yQh-Ij-mf5" firstAttribute="top" secondItem="o1q-rf-bRU" secondAttribute="top" id="Kev-Pp-UGD"/>
+                            <constraint firstItem="yQh-Ij-mf5" firstAttribute="bottom" secondItem="o1q-rf-bRU" secondAttribute="bottom" id="Xrc-Um-tmv"/>
+                            <constraint firstItem="yQh-Ij-mf5" firstAttribute="leading" secondItem="o1q-rf-bRU" secondAttribute="leading" constant="16" id="saN-D1-Vqs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="o1q-rf-bRU"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bios" id="fiW-BC-4UM">
+                        <barButtonItem key="rightBarButtonItem" title="Register" id="CcH-F7-Y2b"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="biosCollectionView" destination="yQh-Ij-mf5" id="uge-h6-VRB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ILg-8f-DPp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911.2" y="2938.3808095952027"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="iJc-Mf-dan">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1MN-4i-ekx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7wq-hg-zN9">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7Mt-1Y-XSb" kind="relationship" relationship="viewControllers" id="a3F-fi-3VK"/>
+                        <segue destination="bbl-uW-paz" kind="relationship" relationship="viewControllers" id="AFT-5x-W0w"/>
+                        <segue destination="TL8-ym-nFd" kind="relationship" relationship="viewControllers" id="lL6-WK-ekU"/>
+                        <segue destination="Mfi-Re-MSu" kind="relationship" relationship="viewControllers" id="yHE-PP-xDP"/>
+                        <segue destination="5vJ-Nr-vCv" kind="relationship" relationship="viewControllers" id="dkM-TJ-18i"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m74-lL-jFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-409" y="1164"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="cA2-Bd-OCe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Mt-1Y-XSb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="about" selectedImage="about" id="6z9-8W-DaZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="YSR-v7-VJz">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.69411764705882351" green="0.27058823529411763" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Yc1-Xe-iPK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A8W-CC-wKt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="31.934032983508249"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="IhV-TZ-ZWw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bbl-uW-paz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Schedule" image="schedule" selectedImage="schedule" id="AgD-t2-g9Z"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="EqW-xa-qWo">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.30588235294117649" green="0.35686274509803922" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bWf-Fp-QNb" kind="relationship" relationship="rootViewController" id="3gq-ru-K6w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KIa-wI-iHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="794"/>
+        </scene>
+        <!--Locate-->
+        <scene sceneID="fqD-d3-5MI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TL8-ym-nFd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Locate" image="locate" selectedImage="locate" id="FRu-Sy-GQU"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="pND-AC-irs">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.92941176470588238" green="0.078431372549019607" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hGh-xy-gku" kind="relationship" relationship="rootViewController" id="CW1-SJ-R2p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Pb-hb-WZ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="1516"/>
+        </scene>
+        <!--Sponsors-->
+        <scene sceneID="Qn6-8T-FD1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mfi-Re-MSu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sponsors" image="sponsor" selectedImage="sponsor" id="YE7-Bd-3m1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="3tO-xq-va6">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.24705882352941178" green="0.76862745098039209" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RJI-b9-WEB" kind="relationship" relationship="rootViewController" id="wCb-YU-GXX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cph-8n-PEk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998" y="2247"/>
+        </scene>
+        <!--Bios-->
+        <scene sceneID="cf4-LT-XQ6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5vJ-Nr-vCv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bios" image="bios" selectedImage="bios" id="TvR-mD-ppP"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="mTU-yy-DIv">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rZx-PC-Eds" kind="relationship" relationship="rootViewController" id="RjV-Te-ffW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ikl-EG-Swu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="2937.481259370315"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="about" width="28" height="28"/>
+        <image name="bios" width="28" height="28"/>
+        <image name="locate" width="28" height="28"/>
+        <image name="map" width="727" height="473"/>
+        <image name="schedule" width="28" height="28"/>
+        <image name="sponsor" width="28" height="28"/>
+        <image name="universitymap" width="300" height="342"/>
+    </resources>
+</document>

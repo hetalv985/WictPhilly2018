@@ -1,0 +1,44 @@
+[
+  {
+    "Name":"Aaron Mulder",
+    "Bio":"As Chief Technology Officer & Director, Aaron Mulder is responsible for Chariot Solutions' technical development standards, policies and style guidelines. He maintains structured workflow between project leaders and developers, and mentors lead developers and architects. Aaron is a published author on topics such as WebLogic Server and EJB and presented at conferences including JavaOne and TheServerSide Java Symposium. Prior to joining Chariot Solutions, he worked for technology firms including Skylight Systems and Andersen Consulting (now Accenture). He graduated from Princeton University with a B.S.E. degree in Aerospace Engineering and a certificate in Physics.",
+    "Image":"amulder.png",
+  },
+  {
+    "Name":"Anne Teal",
+    "Bio":"<p>Anne Teal isaDirector of Business Development at CSG,where she serves as a guide to CSG’s network of partners and customers helping them modernize their communications systems for the digital economy. A customer communications professional for over 25 years, she specializes in automated, interactive communications. Her passion forcreating meaningful, personalized and relevantconnections betweenbusinesses and their customers has defined her tenure over the last 10 years at CSG.Anneis a native of Omaha, Nebraska, where she attended the University of Nebraska and lives today with her family and two dogs.</p>",
+    "Image":"ateal.png",
+  },
+  {
+    "Name":"Chris Kocks",
+    "Bio":"<p>ChrisKocks is a Director at pureIntegration and partners with cable operators to develop, test, and deploy connected products and solutions. He has over 25 years expertise working for Accenture, Cox Communications, GM and other leading firms. Chrishas delivered dozens of innovative open platform products, connected deviceand security solutions in the telecommunications, automotive, and health industries.</p>",
+    "Image":"ckocks.png",
+  },
+  {
+    "Name":"Joel Moffat",
+    "Bio":"<p>Joel Moffatt is the Principal Product Manager and Customer Experience Lead for Comcast’s Accessibility Team. Hehelps drive the team’s customer-focused strategy through engagement with disability community thought leaders, fostering product knowledge within the Accessibility Customer Support Center, managing the Comcast Accessibility Lab and ensuring that accessibility is integrated in Comcast’s culture.</p><p>Joel joined Comcast’s Accessibility Team soon after itsformationin 2013 and has worked on the launches of the X1 talking guide, Comcast’s Accessibility Lab and theAccessibility Support Center. Hecultivates customer feedback and relationships that directly influence the accessibility of XFINITY products for people with disabilities.</p><p>LinkedIn: https://www.linkedin.com/in/joelmoffatt</p><p>Twitter: twitter.com/joelmoffatt</p>",
+    "Image":"jmoffat.png",
+  },
+  {
+    "Name":"Kelsey Oh",
+    "Bio":"<p>Kelsey Oh is with the Children’s Hospital of Philadelphia’s Office of Entrepreneurship & Innovation (OEI), which encourages an entrepreneurial spirit  byidentifying and promoting innovative pediatric healthcare solutions. She helps CHOP employees develop ideas, challenge assumptions and build proof-of-concept products to test product viability, resulting in spinout companies, licensable assets and alternative revenue streams. Before joining OEI in 2016, Kelsey managed CHOP'S FDA-funded medical device consortium, facilitating connections with medical device developers, hospital leadership, and the FDA to generate devices for pediatric patients. Prior to joining CHOP, she earned her degree in Biomedical Engineering and worked in the medical device industry.</p>",
+    "Image":"koh.png",
+  },
+  {
+    "Name":"Kyree Holmes",
+    "Bio":"<p>Kyree is a proud native Philadelphian who has lived all across the city. Originally on track to pursue a career in marketing, she serendipitously discovered the user experience field and fell in love with it. She is currently a User Experience Researcher at Comcast, leading efforts to enhance the X1 voice remote control.Kyree foundedOnyx Valley, a community building organization designed to identify and prepare diverse talent for careers in the tech field. Kyree is a graduate of Howard University’s School of Business and completed her Master’s degree in Design at Carnegie MellonUniversity.</p>",
+    "Image":"kholmes.png",
+  },
+  {
+    "Name":"Rajat Vijayvargiya",
+    "Bio":"<p>Rajat Vijayvargiya is a Senior Business Technology Advisor at CA Technologies and hascombined technology and business leadership experience across Technology, Financial Services/Insurance, Pharma, Life Sciences, Supply-Chain and Not-for-Profit verticals guiding organizational change and business transformation initiatives. He serves as a trusted advisor for Fortune 50 customers, responsible for defining solutions that provide business value to customers and drivs transformation His current areas of focus inlcude: Connected Everything, Continuous Everything, API Economy, Mobile, IoT, Blockchain, FinTech. Raj is an engineering graudate from Drexel University and prior to coming to CA lead Product Management and Development of B2B SaaS portfolio for Big Brothers Big Sisters of America.</p>",
+    "Image":"rvargiya.png",
+  },
+  {
+    "Name":"Satya Muralidharan",
+    "Bio":"<p>Satya manages the ECO Self-Service engineering team at ARRIS and is the lead engineer for the product line. She has over 7 years experiencein the telecommunications industry and over 12 years experience in software engineering. Satya attended the University of Kansas, where she earned a master's degree in computer engineering. She enjoys challenges that inspire intelligent solutions and loves working hard with a team to make great things happen.</p>",
+    "Image":"smuralidharan.png",
+  },
+
+
+]
