@@ -35,6 +35,8 @@
 		3DBB0FD22083ED0A00B223A3 /* Brandon_med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC62083ED0A00B223A3 /* Brandon_med.otf */; };
 		3DBB0FD32083ED0A00B223A3 /* Brandon_reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC72083ED0A00B223A3 /* Brandon_reg.otf */; };
 		3DBB0FD42083ED0A00B223A3 /* Brandon_reg_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC82083ED0A00B223A3 /* Brandon_reg_it.otf */; };
+		3DEC172020CDD309005CF040 /* Bios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC171F20CDD309005CF040 /* Bios.swift */; };
+		3DEC172220CDD31F005CF040 /* Bio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC172120CDD31F005CF040 /* Bio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,8 @@
 		3DBB0FC62083ED0A00B223A3 /* Brandon_med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_med.otf; sourceTree = "<group>"; };
 		3DBB0FC72083ED0A00B223A3 /* Brandon_reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg.otf; sourceTree = "<group>"; };
 		3DBB0FC82083ED0A00B223A3 /* Brandon_reg_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg_it.otf; sourceTree = "<group>"; };
+		3DEC171F20CDD309005CF040 /* Bios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bios.swift; sourceTree = "<group>"; };
+		3DEC172120CDD31F005CF040 /* Bio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bio.swift; sourceTree = "<group>"; };
 		74337EB3F2B31AEAB74536D3 /* Pods_TechItOut2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechItOut2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1F86E5DA08F4127BACCEC5 /* Pods-TechItOut2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechItOut2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechItOut2018/Pods-TechItOut2018.release.xcconfig"; sourceTree = "<group>"; };
 		D6F9A3B92613AC575FBDFC31 /* Pods-TechItOut2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechItOut2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechItOut2018/Pods-TechItOut2018.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				3DAC380E20BB251B003FFE67 /* ScheduleItem.swift */,
 				3DAC381020BB2BA2003FFE67 /* Track.swift */,
 				3DAC381220BB2BEF003FFE67 /* Session.swift */,
+				3DEC171F20CDD309005CF040 /* Bios.swift */,
+				3DEC172120CDD31F005CF040 /* Bio.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -330,6 +336,8 @@
 				3DAC381120BB2BA2003FFE67 /* Track.swift in Sources */,
 				3D065C3C207955BF00137AE2 /* AppDelegate.swift in Sources */,
 				3DAC380D20BB24F7003FFE67 /* Schedule.swift in Sources */,
+				3DEC172020CDD309005CF040 /* Bios.swift in Sources */,
+				3DEC172220CDD31F005CF040 /* Bio.swift in Sources */,
 				3DBB0FB52083DD7F00B223A3 /* BiosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

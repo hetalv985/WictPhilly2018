@@ -31,7 +31,7 @@ class Schedule: NSObject {
                 for (_,trackJson) in subJson["Tracks"] {
                     let track = Track()
                     track.name = trackJson["Track"].stringValue
-                    for (_,sessionJson) in subJson["Sessions"] {
+                    for (_,sessionJson) in trackJson["Sessions"] {
                         let sessionItem = Session()
                         sessionItem.title = sessionJson["Title"].stringValue
                         sessionItem.speakers = sessionJson["Speakers"].stringValue

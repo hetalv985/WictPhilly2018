@@ -137,6 +137,55 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="trackCell" rowHeight="193" id="RiK-Fk-pDX">
+                                        <rect key="frame" x="0.0" y="292.5" width="375" height="193"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RiK-Fk-pDX" id="Slb-nr-aAb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="192.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="1" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Track name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSj-Yk-xCM">
+                                                    <rect key="frame" x="15" y="13" width="345" height="24.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="17"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="2" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Session title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OO4-5q-1tL">
+                                                    <rect key="frame" x="15" y="45" width="345" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="3" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Speakers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maU-jj-OPw">
+                                                    <rect key="frame" x="15" y="82" width="345" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" tag="4" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCX-gH-wWs">
+                                                    <rect key="frame" x="15" y="119.5" width="345" height="46.5"/>
+                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="rCX-gH-wWs" secondAttribute="bottom" constant="16" id="0os-7X-OYq"/>
+                                                <constraint firstItem="rCX-gH-wWs" firstAttribute="top" secondItem="maU-jj-OPw" secondAttribute="bottom" constant="16" id="CAQ-3T-SSB"/>
+                                                <constraint firstItem="OO4-5q-1tL" firstAttribute="trailing" secondItem="Slb-nr-aAb" secondAttribute="trailingMargin" id="Mia-37-xRi"/>
+                                                <constraint firstItem="maU-jj-OPw" firstAttribute="leading" secondItem="Slb-nr-aAb" secondAttribute="leadingMargin" id="P6x-NN-QlV"/>
+                                                <constraint firstItem="OO4-5q-1tL" firstAttribute="top" secondItem="hSj-Yk-xCM" secondAttribute="bottom" constant="8" id="Pfw-qi-jdP"/>
+                                                <constraint firstItem="hSj-Yk-xCM" firstAttribute="leading" secondItem="Slb-nr-aAb" secondAttribute="leadingMargin" id="Qgy-0X-5jI"/>
+                                                <constraint firstItem="rCX-gH-wWs" firstAttribute="trailing" secondItem="Slb-nr-aAb" secondAttribute="trailingMargin" id="S1f-k0-BgX"/>
+                                                <constraint firstItem="rCX-gH-wWs" firstAttribute="leading" secondItem="Slb-nr-aAb" secondAttribute="leadingMargin" id="e7y-kr-6dX"/>
+                                                <constraint firstItem="hSj-Yk-xCM" firstAttribute="top" secondItem="Slb-nr-aAb" secondAttribute="topMargin" constant="2" id="jO2-yl-tLs"/>
+                                                <constraint firstItem="hSj-Yk-xCM" firstAttribute="trailing" secondItem="Slb-nr-aAb" secondAttribute="trailingMargin" id="twm-Un-UHb"/>
+                                                <constraint firstItem="maU-jj-OPw" firstAttribute="top" secondItem="OO4-5q-1tL" secondAttribute="bottom" constant="16" id="v4I-xs-5Sf"/>
+                                                <constraint firstItem="OO4-5q-1tL" firstAttribute="leading" secondItem="Slb-nr-aAb" secondAttribute="leadingMargin" id="xho-uY-cod"/>
+                                                <constraint firstItem="maU-jj-OPw" firstAttribute="trailing" secondItem="Slb-nr-aAb" secondAttribute="trailingMargin" id="xkb-fI-UEq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="bWf-Fp-QNb" id="48h-yw-4dQ"/>

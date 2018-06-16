@@ -18,21 +18,31 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let scheduleItem = self.eventSchedule.scheduleItems[section]
+        if scheduleItem.tracks.count > 0 {
+            return scheduleItem.tracks.count
+        }
         return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "scheduleCell")
         let scheduleItem = self.eventSchedule.scheduleItems[indexPath.section]
+        
         let titleLbl = cell?.viewWithTag(1) as! UILabel
         let subTitleLbl = cell?.viewWithTag(2) as! UILabel
         let speakersLbl = cell?.viewWithTag(3) as! UILabel
         let locationLbl = cell?.viewWithTag(4) as! UILabel
-
-        titleLbl.text = scheduleItem.title
-        subTitleLbl.text = scheduleItem.subTitle
-        speakersLbl.text = scheduleItem.speakers
-        locationLbl.text = scheduleItem.location
+        
+        if indexPath.row == 0 {
+            titleLbl.text = scheduleItem.title
+            subTitleLbl.text = scheduleItem.subTitle
+            speakersLbl.text = scheduleItem.speakers
+            locationLbl.text = scheduleItem.location
+        }
+        else {
+            
+        }
         
         return cell!
     }
