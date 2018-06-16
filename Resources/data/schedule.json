@@ -1,252 +1,242 @@
-[
-    {
-        "Time":"8:00am - 10:00am",
-        "Title":"Registration and continental breakfast",
-        "Subtitle":"",
-        "Location": "Connelly Hall",
-        "Speakers":"",
-    },
-    {
-        "Time":"8:00am - 5:15pm",
-        "Title":"Sponsor Showcase",
-        "Subtitle":"",
-        "Location": "TBD",
-        "Speakers":"",
-    },
-    {
-        "Time":"9:00am - 11:30am",
-        "Title":"Morning General Sessions",
-        "Subtitle":"",
-        "Location": "TBD",
-        "Speakers":"",
-    },
-    {
-        "Time":"8:45am - 9:15am",
-        "Title":"PHILLYBLOCO–Brazilian Music to Shake Your Body and Soul",
-        "Subtitle":"",
-        "Location": "TBD",
-        "Speakers":"",
-    },
-    {
-        "Time":"9:15am",
-        "Title":"Orientation",
-        "Subtitle":"",
-        "Location": "TBD",
-        "Speakers":"Michele Corsini and Mary Malone",
-    },
-    {
-        "Time":"9:25am",
-        "Title":"Welcome to Villanova",
-        "Subtitle":"",
-        "Location": "TBD",
-        "Speakers":"Dr. Adele Lindenmyer, Dean, College of Liberal Arts and Sciences, Villanova University",
-    },
-    {
-        "Time":"9:35am",
-        "Title":"Welcome from WICT Global and Introduction of Opening Remarks",
-        "Subtitle":"",
-        "Location": "TBD",
-        "Speakers":"Maria E. Brennan, President and CEO of Women in Cable Telecommunications (WICT)",
-    },
-    {
-        "Time":"9:40am",
-        "Title":"Opening Remarks",
-        "Subtitle":"",
-        "Location": "TBD",
-        "Speakers":"Nomi Bergman, President, Advance/Newhouse",
-    },
-    {
-        "Time":"9:55am",
-        "Title":"Introduction by ARRIS or Cisco",
-        "Subtitle":"Keynote:The Evolution of Voice Control",
-        "Location": "TBD",
-        "Speakers":"Jeanine Heck, VP Product Development, Founding Product Lead for Comcast’s X1 Voice Remote",
-    },
-    {
-        "Time":"10:25am",
-        "Title":"Break",
-        "Subtitle":"",
-        "Location": "",
-        "Speakers":"",
-    },
-    {
-        "Time":"10:40am",
-        "Title":"Introduction by ARRIS or Cisco",
-        "Subtitle":"Alexa Voice Services",
-        "Location": "TBD",
-        "Speakers":"Laura Szkrybalo, Principal, Business Development, Amazon Voice Services",
-    },
-    {
-        "Time":"11:05am",
-        "Title":"Introduction by ARRIS or Cisco",
-        "Subtitle":"Xfinity Accessibility",
-        "Location": "TBD",
-        "Speakers":"Joel Moffat, Principle Product Manager, CX Lead, Accessibility",
-    },
-    {
-        "Time":"11:30am - 12:45pm",
-        "Title":"Luncheon, Presentation and Film Screening",
-        "Subtitle":"Chasing Grace Project –You Can’t Be What You Can’t See",
-        "Location": "TBD",
-        "Speakers":"Jennifer Cloer, Artist and Executive Producer, Wicked Flicks Productions",
-    },
-    {
-        "Time":"12:45pm",
-        "Title":"Group Photo",
-        "Subtitle":"",
-        "Location": "TBD",
-        "Speakers":"",
-    },
-    {
-        "Time":"1:00pm - 1:45pm",
-        "Title":"Breakout Session 1",
-        "Subtitle":"",
-        "Location": "",
-        "Speakers":"",
-        "Tracks":[
-            {
-              "Track":"Track 1",
-              "Sessions":[{
-                "Title":"#VoiceisCoolAgain: How Next Gen Tools Are Bringing Commerce Back to Basics",
-                "Location":"Villanova Room, Connelly Center",
-                "Speakers":"Ann Teal, Director of Business Solutions, CSG",
-              }],
-            },
-            {
-              "Track":"Track 2",
-              "Sessions":[{
-                "Title":"Microsoft -AI for All -Transforming Your Business with Artificial Intelligence",
-                "Location":"Cinema, Connelly Center",
-                "Speakers":"TBD",
-              }],
-            },
-            {
-              "Track":"Track 3",
-              "Sessions":[
-                {
-                  "Title":"Software and Hardware Considerations in Developing a Voice Platform",
-                  "Location":"TBD",
-                  "Speakers":"Mariel Sabraw, Senior Product Manager, Comcast",
-                },
-                {
-                  "Title":"Beyond Television: Voice Control in the Digital Home",
-                  "Location":"TBD",
-                  "Speakers":"Brian Kissinger, Director, Product Management,Comcast",
-                }
-              ],
-            },
-            {
-              "Track":"Track 4",
-              "Sessions":[{
-                "Title":"How to Align Frictionless Experiences with Security and Speed and Provide Them at Scale",
-                "Location":"TBD",
-                "Speakers":"Rajat Vijayvargiya, Senior Business Technology Architect, CA Technologies",
-              }],
-            },
-        ]
-    },
-    {
-        "Time":"2:00pm - 2:45pm",
-        "Title":"Breakout Session 2",
-        "Subtitle":"",
-        "Location": "",
-        "Speakers":"",
-        "Tracks":[
-            {
-              "Track":"Track 1",
-              "Sessions":[{
-                "Title":"Prototyping Voice Control and AI Video Surveillance",
-                "Location":"Villanova Room, Connelly Center",
-                "Speakers":"Chris Kocks, Director,Internet of Things Practice, Pure Integration",
-              }],
-            },
-            {
-              "Track":"Track 2",
-              "Sessions":[{
-                "Title":"Google Assistant: Conversational Interfaces and the Future of Consumer Interaction",
-                "Location":"Cinema, Connelly Center",
-                "Speakers":"Naomi Makofsky, Global Product Partnerships, Search & Assistant, Google",
-              }],
-            },
-            {
-              "Track":"Track 3",
-              "Sessions":[{
-                  "Title":"Build an Alexa Skill",
-                  "Location":"TBD",
-                  "Speakers":"TBD Amazon Voice Evangelist",
-                }],
-            },
-            {
-              "Track":"Track 4",
-              "Sessions":[{
-                "Title":"Adoption of Machine Learning in Telecommunications",
-                "Location":"TBD",
-                "Speakers":"David Frigeri, Practice Area Lead, Advanced Analytics and Visualization, SlalomConsulting",
-              }],
-            },
-        ]
-    },
-    {
-        "Time":"2:45pm - 3:15pm",
-        "Title":"Break",
-        "Subtitle":"",
-        "Location": "",
-        "Speakers":"",
-    },
-    {
-        "Time":"3:15pm - 4:00pm",
-        "Title":"Breakout Session 3",
-        "Subtitle":"",
-        "Location": "",
-        "Speakers":"",
-        "Tracks":[
-            {
-              "Track":"Track 1",
-              "Sessions":[{
-                "Title":"ARRIS Voice Assistants to Manage Home Wi-Fi Devices",
-                "Location":"Villanova Room, Connelly Center",
-                "Speakers":"Satyasree Muralidharan, Software Engineering Manager, ARRIS",
-              }],
-            },
-            {
-              "Track":"Track 2",
-              "Sessions":[{
-                "Title":"Alexa at the Children’s Hospital of Philadelphia",
-                "Location":"Cinema, Connelly Center",
-                "Speakers":"Kelsey Oh, Venture and Innovation Analyst, CHOP and Aaron Mulder, CTO, Chariot Solutions",
-              }],
-            },
-            {
-              "Track":"Track 3",
-              "Sessions":[{
-                  "Title":"Why Isn’t Voice Used More Widely? Four Key Challenges Facing Adoption",
-                  "Location":"TBD",
-                  "Speakers":"Kyree Holmes, User Experience Researcher, Comcast | Founder, Onyx Valley",
-                }],
-            },
-            {
-              "Track":"Track 4",
-              "Sessions":[{
-                "Title":"Computing at the Edge Still Has an Edge",
-                "Location":"TBD",
-                "Speakers":"Arun Ravisankar, Senior Engineer, CPE and Home Network, Comcast",
-              }],
-            },
-        ]
-    },
-    {
-        "Time":"4:10pm - 4:30pm",
-        "Title":"Giveaways and Thank You",
-        "Subtitle":"",
-        "Location": "",
-        "Speakers":"",
-    },
-    {
-        "Time":"4:30pm - 5:45pm",
-        "Title":"Reception",
-        "Subtitle":"",
-        "Location": "",
-        "Speakers":"",
-    }
-
-]
+ [
+  {
+  "Time":"8:00am - 10:00am",
+  "Title":"Registration and continental breakfast",
+  "Subtitle":"",
+  "Location":"Connelly Hall",
+  "Speakers":"",
+  
+  },
+  {
+  "Time":"8:00am - 5:15pm",
+  "Title":"Sponsor Showcase",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"",
+  
+  },
+  {
+  "Time":"9:00am - 11:30am",
+  "Title":"Morning General Sessions",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"",
+  
+  },
+  {
+  "Time":"8:45am - 9:15am",
+  "Title":"PHILLYBLOCO–Brazilian Music to Shake Your Body and Soul",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"",
+  
+  },
+  {
+  "Time":"9:15am",
+  "Title":"Orientation",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Michele Corsini and Mary Malone",
+  
+  },
+  {
+  "Time":"9:25am",
+  "Title":"Welcome to Villanova",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Dr. Adele Lindenmyer, Dean, College of Liberal Arts and Sciences, Villanova University",
+  
+  },
+  {
+  "Time":"9:35am",
+  "Title":"Welcome from WICT Global and Introduction of Opening Remarks",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Maria E. Brennan, President and CEO of Women in Cable Telecommunications (WICT)",
+  
+  },
+  {
+  "Time":"9:40am",
+  "Title":"Opening Remarks",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Nomi Bergman, President, Advance/Newhouse",
+  
+  },
+  {
+  "Time":"9:55am",
+  "Title":"Introduction by ARRIS or Cisco",
+  "Subtitle":"Keynote:The Evolution of Voice Control",
+  "Location":"TBD",
+  "Speakers":"Jeanine Heck, VP Product Development, Founding Product Lead for Comcast’s X1 Voice Remote",
+  
+  },
+  {
+  "Time":"10:25am",
+  "Title":"Break",
+  "Subtitle":"",
+  "Location":"",
+  "Speakers":"",
+  
+  },
+  {
+  "Time":"10:40am",
+  "Title":"Introduction by ARRIS or Cisco",
+  "Subtitle":"Alexa Voice Services",
+  "Location":"TBD",
+  "Speakers":"Laura Szkrybalo, Principal, Business Development, Amazon Voice Services",
+  
+  },
+  {
+  "Time":"11:05am",
+  "Title":"Introduction by ARRIS or Cisco",
+  "Subtitle":"Xfinity Accessibility",
+  "Location":"TBD",
+  "Speakers":"Joel Moffat, Principle Product Manager, CX Lead, Accessibility",
+  
+  },
+  {
+  "Time":"11:30am - 12:45pm",
+  "Title":"Luncheon, Presentation and Film Screening",
+  "Subtitle":"Chasing Grace Project –You Can’t Be What You Can’t See",
+  "Location":"TBD",
+  "Speakers":"Jennifer Cloer, Artist and Executive Producer, Wicked Flicks Productions",
+  
+  },
+  {
+  "Time":"12:45pm",
+  "Title":"Group Photo",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"",
+  
+  },
+  {
+  "Time":"1:00pm - 1:45pm",
+  "Title":"#VoiceisCoolAgain: How Next Gen Tools Are Bringing Commerce Back to Basics",
+  "Subtitle":"",
+  "Location":"Villanova Room, Connelly Center",
+  "Speakers":"Ann Teal, Director of Business Solutions, CSG",
+  "Label":"Breakout Session 1 - Track 1"
+  },
+  {
+  "Time":"1:00pm - 1:45pm",
+  "Title":"Microsoft -AI for All -Transforming Your Business with Artificial Intelligence",
+  "Subtitle":"",
+  "Location":"Cinema, Connelly Center",
+  "Speakers":"TBD",
+  "Label":"Breakout Session 1 - Track 2"
+  },
+  {
+  "Time":"1:00pm - 1:45pm",
+  "Title":"Software and Hardware Considerations in Developing a Voice Platform",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Mariel Sabraw, Senior Product Manager, Comcast",
+  "Label":"Breakout Session 1 - Track 3"
+  },
+  {
+  "Time":"1:00pm - 1:45pm",
+  "Title":"Beyond Television: Voice Control in the Digital Home",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Brian Kissinger, Director, Product Management,Comcast",
+  "Label":"Breakout Session 1 - Track 3"
+  },
+  {
+  "Time":"1:00pm - 1:45pm",
+  "Title":"How to Align Frictionless Experiences with Security and Speed and Provide Them at Scale",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Rajat Vijayvargiya, Senior Business Technology Architect, CA Technologies",
+  "Label":"Breakout Session 1 - Track 4"
+  },
+  {
+  "Time":"2:00pm - 2:45pm",
+  "Title":"Prototyping Voice Control and AI Video Surveillance",
+  "Subtitle":"",
+  "Location":"Villanova Room, Connelly Center",
+  "Speakers":"Chris Kocks, Director,Internet of Things Practice, Pure Integration",
+  "Label":"Breakout Session 2 - Track 1"
+  },
+  {
+  "Time":"2:00pm - 2:45pm",
+  "Title":"Google Assistant: Conversational Interfaces and the Future of Consumer Interaction",
+  "Subtitle":"",
+  "Location":"Cinema, Connelly Center",
+  "Speakers":"Naomi Makofsky, Global Product Partnerships, Search & Assistant, Google",
+  "Label":"Breakout Session 2 - Track 2"
+  },
+  {
+  "Time":"2:00pm - 2:45pm",
+  "Title":"Build an Alexa Skill",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"TBD Amazon Voice Evangelist",
+  "Label":"Breakout Session 2 - Track 3"
+  },
+  {
+  "Time":"2:00pm - 2:45pm",
+  "Title":"Adoption of Machine Learning in Telecommunications",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"David Frigeri, Practice Area Lead, Advanced Analytics and Visualization, SlalomConsulting",
+  "Label":"Breakout Session 2 - Track 4"
+  },
+  {
+  "Time":"2:45pm - 3:15pm",
+  "Title":"Break",
+  "Subtitle":"",
+  "Location":"",
+  "Speakers":"",
+  
+  },
+  {
+  "Time":"3:15pm - 4:00pm",
+  "Title":"ARRIS Voice Assistants to Manage Home Wi-Fi Devices",
+  "Subtitle":"",
+  "Location":"Villanova Room, Connelly Center",
+  "Speakers":"Satyasree Muralidharan, Software Engineering Manager, ARRIS",
+  "Label":"Breakout Session 3 - Track 1"
+  },
+  {
+  "Time":"3:15pm - 4:00pm",
+  "Title":"Alexa at the Children’s Hospital of Philadelphia",
+  "Subtitle":"",
+  "Location":"Cinema, Connelly Center",
+  "Speakers":"Kelsey Oh, Venture and Innovation Analyst, CHOP and Aaron Mulder, CTO, Chariot Solutions",
+  "Label":"Breakout Session 3 - Track 2"
+  },
+  {
+  "Time":"3:15pm - 4:00pm",
+  "Title":"Why Isn’t Voice Used More Widely? Four Key Challenges Facing Adoption",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Kyree Holmes, User Experience Researcher, Comcast | Founder, Onyx Valley",
+  "Label":"Breakout Session 3 - Track 3"
+  },
+  {
+  "Time":"3:15pm - 4:00pm",
+  "Title":"Computing at the Edge Still Has an Edge",
+  "Subtitle":"",
+  "Location":"TBD",
+  "Speakers":"Arun Ravisankar, Senior Engineer, CPE and Home Network, Comcast",
+  "Label":"Breakout Session 3 - Track 4"
+  },
+  {
+  "Time":"4:10pm - 4:30pm",
+  "Title":"Giveaways and Thank You",
+  "Subtitle":"",
+  "Location":"",
+  "Speakers":"",
+  
+  },
+  {
+  "Time":"4:30pm - 5:45pm",
+  "Title":"Reception",
+  "Subtitle":"",
+  "Location":"",
+  "Speakers":"",
+  
+  }
+  ]

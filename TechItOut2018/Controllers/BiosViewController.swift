@@ -9,27 +9,24 @@
 import UIKit
 
 class BiosViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-    let bios = [
-        "0": [["name":"Mary Malone",
-         "position":"Architect, Comcast",
-         "imageFilename":"mmalone.jpg"
-         ],
-        ["name":"Hetal Vora",
-         "position":"Architect - Mobility, Cognizant",
-         "imageFilename":"hvora.jpg"
-        ]],
-        "1": [["name":"Pawan Tripathi",
-         "position":"Principal Engineer, Comcast",
-         "imageFilename":"ptripathi.jpg"
-        ]]
-    ]
+    let bios = Bios()
+    var numOfRows = 0
+    let bioPerRow = 2
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return bios.count
+        return numOfRows
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return bios["\(section)"]!.count
+        if numOfRows == section+1 {
+            if bios.bios.count % bioPerRow == 0 {
+                return bioPerRow
+            }
+            else {
+                return 1
+            }
+        }
+        return bioPerRow
     }
     
     
@@ -42,13 +39,14 @@ class BiosViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let nameLabel = cell.viewWithTag(2) as! UILabel
         let positionLabel = cell.viewWithTag(3) as! UILabel
         
-        let bio = bios["\(indexPath.section)"]![indexPath.row]
-        nameLabel.text = bio["name"]
-        positionLabel.text = bio["position"]
+        print("\(indexPath.section*2+indexPath.row)")
+        let bio = bios.bios[indexPath.section*2+indexPath.row]
+        nameLabel.text = bio.name
+        positionLabel.text = bio.designation
         
         imgView.layer.cornerRadius = 28
         imgView.layer.masksToBounds = true
-        imgView.image = UIImage.init(named: bio["imageFilename"]!)
+        imgView.image = UIImage.init(named: bio.imageName)
         
         return cell
     }
@@ -60,6 +58,9 @@ class BiosViewController: UIViewController, UICollectionViewDelegate, UICollecti
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        bios.readBios()
+        numOfRows = Int(ceil(Double(bios.bios.count/bioPerRow)))
+        
     }
 
     override func didReceiveMemoryWarning() {
