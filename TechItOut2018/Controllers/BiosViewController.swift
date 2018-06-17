@@ -34,10 +34,11 @@ class BiosViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "biosCell", for: indexPath)
         cell.layer.borderColor = UIColor.lightGray.cgColor
         cell.layer.borderWidth = 0.5
+        cell.tag = indexPath.section*2+indexPath.row
         
-        let imgView = cell.viewWithTag(1) as! UIImageView
-        let nameLabel = cell.viewWithTag(2) as! UILabel
-        let positionLabel = cell.viewWithTag(3) as! UILabel
+        let imgView = cell.viewWithTag(99) as! UIImageView
+        let nameLabel = cell.viewWithTag(100) as! UILabel
+        let positionLabel = cell.viewWithTag(101) as! UILabel
         
         let bio = bios.bios[indexPath.section*2+indexPath.row]
         nameLabel.text = bio.name
@@ -67,15 +68,12 @@ class BiosViewController: UIViewController, UICollectionViewDelegate, UICollecti
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let cell = sender as! UICollectionViewCell
+        let bioObj = bios.bios[cell.tag]
+        let bioDetailViewController = segue.destination as! BioDetailViewController
+        bioDetailViewController.bioData = bioObj
     }
-    */
+ 
 
 }

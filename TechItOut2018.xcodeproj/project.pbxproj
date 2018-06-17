@@ -13,6 +13,7 @@
 		3D065C41207955BF00137AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C3F207955BF00137AE2 /* Main.storyboard */; };
 		3D065C43207955BF00137AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C42207955BF00137AE2 /* Assets.xcassets */; };
 		3D065C46207955BF00137AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C44207955BF00137AE2 /* LaunchScreen.storyboard */; };
+		3D61CDB420D6D4D7001846AD /* BioDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61CDB320D6D4D7001846AD /* BioDetailViewController.swift */; };
 		3DAC380720BA1B37003FFE67 /* bios.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC380520BA1B37003FFE67 /* bios.json */; };
 		3DAC380820BA1B37003FFE67 /* schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC380620BA1B37003FFE67 /* schedule.json */; };
 		3DAC380D20BB24F7003FFE67 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC380C20BB24F7003FFE67 /* Schedule.swift */; };
@@ -45,6 +46,7 @@
 		3D065C42207955BF00137AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D065C45207955BF00137AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D065C47207955BF00137AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D61CDB320D6D4D7001846AD /* BioDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioDetailViewController.swift; sourceTree = "<group>"; };
 		3DAC380520BA1B37003FFE67 /* bios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bios.json; sourceTree = "<group>"; };
 		3DAC380620BA1B37003FFE67 /* schedule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schedule.json; sourceTree = "<group>"; };
 		3DAC380C20BB24F7003FFE67 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				3DBB0FB42083DD7F00B223A3 /* BiosViewController.swift */,
 				3DBB0FB62083DD9300B223A3 /* SponsorsViewController.swift */,
 				3DBB0FB82083DDB700B223A3 /* LocateViewController.swift */,
+				3D61CDB320D6D4D7001846AD /* BioDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D61CDB420D6D4D7001846AD /* BioDetailViewController.swift in Sources */,
 				3DBB0FB92083DDB700B223A3 /* LocateViewController.swift in Sources */,
 				3DAC380F20BB251B003FFE67 /* ScheduleItem.swift in Sources */,
 				3DBB0FB72083DD9300B223A3 /* SponsorsViewController.swift in Sources */,
