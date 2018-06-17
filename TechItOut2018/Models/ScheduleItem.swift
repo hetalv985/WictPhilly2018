@@ -14,7 +14,6 @@ class ScheduleItem: NSObject {
     var subTitle: String = ""
     var speakers: String = ""
     var location: String = ""
-    var tracks = [Track]()
-    
+    var label: String = ""
 
 }

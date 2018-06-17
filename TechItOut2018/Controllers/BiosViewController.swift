@@ -39,7 +39,6 @@ class BiosViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let nameLabel = cell.viewWithTag(2) as! UILabel
         let positionLabel = cell.viewWithTag(3) as! UILabel
         
-        print("\(indexPath.section*2+indexPath.row)")
         let bio = bios.bios[indexPath.section*2+indexPath.row]
         nameLabel.text = bio.name
         positionLabel.text = bio.designation

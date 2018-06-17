@@ -17,8 +17,6 @@
 		3DAC380820BA1B37003FFE67 /* schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC380620BA1B37003FFE67 /* schedule.json */; };
 		3DAC380D20BB24F7003FFE67 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC380C20BB24F7003FFE67 /* Schedule.swift */; };
 		3DAC380F20BB251B003FFE67 /* ScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC380E20BB251B003FFE67 /* ScheduleItem.swift */; };
-		3DAC381120BB2BA2003FFE67 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC381020BB2BA2003FFE67 /* Track.swift */; };
-		3DAC381320BB2BEF003FFE67 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC381220BB2BEF003FFE67 /* Session.swift */; };
 		3DBB0FB22082D9B000B223A3 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBB0FB12082D9B000B223A3 /* ScheduleViewController.swift */; };
 		3DBB0FB52083DD7F00B223A3 /* BiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBB0FB42083DD7F00B223A3 /* BiosViewController.swift */; };
 		3DBB0FB72083DD9300B223A3 /* SponsorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBB0FB62083DD9300B223A3 /* SponsorsViewController.swift */; };
@@ -51,8 +49,6 @@
 		3DAC380620BA1B37003FFE67 /* schedule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schedule.json; sourceTree = "<group>"; };
 		3DAC380C20BB24F7003FFE67 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		3DAC380E20BB251B003FFE67 /* ScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleItem.swift; sourceTree = "<group>"; };
-		3DAC381020BB2BA2003FFE67 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
-		3DAC381220BB2BEF003FFE67 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		3DBB0FB12082D9B000B223A3 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		3DBB0FB42083DD7F00B223A3 /* BiosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiosViewController.swift; sourceTree = "<group>"; };
 		3DBB0FB62083DD9300B223A3 /* SponsorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsViewController.swift; sourceTree = "<group>"; };
@@ -135,8 +131,6 @@
 			children = (
 				3DAC380C20BB24F7003FFE67 /* Schedule.swift */,
 				3DAC380E20BB251B003FFE67 /* ScheduleItem.swift */,
-				3DAC381020BB2BA2003FFE67 /* Track.swift */,
-				3DAC381220BB2BEF003FFE67 /* Session.swift */,
 				3DEC171F20CDD309005CF040 /* Bios.swift */,
 				3DEC172120CDD31F005CF040 /* Bio.swift */,
 			);
@@ -327,13 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DAC381320BB2BEF003FFE67 /* Session.swift in Sources */,
 				3DBB0FB92083DDB700B223A3 /* LocateViewController.swift in Sources */,
 				3DAC380F20BB251B003FFE67 /* ScheduleItem.swift in Sources */,
 				3DBB0FB72083DD9300B223A3 /* SponsorsViewController.swift in Sources */,
 				3DBB0FB22082D9B000B223A3 /* ScheduleViewController.swift in Sources */,
 				3D065C3E207955BF00137AE2 /* AboutViewController.swift in Sources */,
-				3DAC381120BB2BA2003FFE67 /* Track.swift in Sources */,
 				3D065C3C207955BF00137AE2 /* AppDelegate.swift in Sources */,
 				3DAC380D20BB24F7003FFE67 /* Schedule.swift in Sources */,
 				3DEC172020CDD309005CF040 /* Bios.swift in Sources */,

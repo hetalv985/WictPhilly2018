@@ -28,18 +28,7 @@ class Schedule: NSObject {
                 scheduleItem.speakers = subJson["Speakers"].stringValue
                 scheduleItem.time = subJson["Time"].stringValue
                 scheduleItem.location = subJson["Location"].stringValue
-                for (_,trackJson) in subJson["Tracks"] {
-                    let track = Track()
-                    track.name = trackJson["Track"].stringValue
-                    for (_,sessionJson) in trackJson["Sessions"] {
-                        let sessionItem = Session()
-                        sessionItem.title = sessionJson["Title"].stringValue
-                        sessionItem.speakers = sessionJson["Speakers"].stringValue
-                        sessionItem.location = sessionJson["Location"].stringValue
-                        track.sessions.append(sessionItem)
-                    }
-                    scheduleItem.tracks.append(track)
-                }
+                scheduleItem.label = subJson["Label"].stringValue
                 self.scheduleItems.append(scheduleItem)
             }
         }

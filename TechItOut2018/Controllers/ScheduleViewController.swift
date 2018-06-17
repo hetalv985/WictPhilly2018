@@ -18,10 +18,6 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let scheduleItem = self.eventSchedule.scheduleItems[section]
-        if scheduleItem.tracks.count > 0 {
-            return scheduleItem.tracks.count
-        }
         return 1
     }
     
@@ -34,15 +30,10 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
         let speakersLbl = cell?.viewWithTag(3) as! UILabel
         let locationLbl = cell?.viewWithTag(4) as! UILabel
         
-        if indexPath.row == 0 {
             titleLbl.text = scheduleItem.title
             subTitleLbl.text = scheduleItem.subTitle
             speakersLbl.text = scheduleItem.speakers
             locationLbl.text = scheduleItem.location
-        }
-        else {
-            
-        }
         
         return cell!
     }
@@ -50,12 +41,12 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = tableView.dequeueReusableCell(withIdentifier: "Header")
         let scheduleItem = self.eventSchedule.scheduleItems[section]
-        view?.textLabel?.text = scheduleItem.time
+        view?.textLabel?.text = scheduleItem.label + "\n" + scheduleItem.time
         return view!
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 30.0
+        return 50.0
     }
 
     override func viewDidLoad() {
