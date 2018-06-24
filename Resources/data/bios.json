@@ -72,6 +72,12 @@
   "Designation":"Creator, The Chasing Grace Project",
   },
   {
+  "Name":"Jeremy Keen",
+  "Bio":"<p>Jeremy Keen, Google Cloud Customer Engineer. Customer Engineers at Google Cloud work closely with customers to accelerate adoption of Google Cloud Platform through knowledge sharing, hands-on workshops, and by building Proof-of-Concepts. Jeremy has GoogleHomes in nearly every room of his house and enjoys building new Actions on Google Assistant to voice enable his numerous gadgets. A proud owner of a 3D printer and small maker home workshop, Jeremy has a passion for building fun and sometimes useful gadgets.Jeremy has been designing and implementing data center technology for 15 years in various consulting roles and most recently worked at Dell EMC as a Cloud Architect.</p>",
+  "Image":"jkeen.png",
+  "Designation":"Google Cloud Customer Engineer",
+  },
+  {
   "Name":"Joanna Dees",
   "Bio":"<p>Joanna Dees is WICT’s Vice President of Educational Programs. In this role, she leads the delivery of WICT’s suite of programs including over a dozen professional trainings and two conferences annually.  She has spent her career seeking to expand economic opportunities for communities that have been excluded, serving as VP of Global Programs and Corporate Relations at the National Gay & Lesbian Chamber of Commerce and leadingex-offender reentry efforts at the Noisette Foundation. Joanna earned her BA in Sociology and Psychology from the College of William & Mary and a Master of Arts degree in Sociology at American University.</p>",
   "Image":"jdees.png",
@@ -138,12 +144,6 @@
   "Designation":"Director, PhillyBloco",
   },
   {
-  "Name":"Naomi Makofsky",
-  "Bio":"<p></p>",
-  "Image":"nmakofsky.png",
-  "Designation":"Global Product Partnerships, Search & Assistant, Google",
-  },
-  {
   "Name":"Nomi Bergman",
   "Bio":"<p>Nomi Bergman is a senior executive officer with the Advance/Newhouse companies where she focuses on corporate development and strategic partnerships.Bergman has over 25 years of experience as an operator, investor and advisor to technology companies, where she has focused on mobile, data and video communications, information technology and data services, advanced advertising, and emerging technologies centered on reimagining and improving the customer experience.</p><p>Previously, President of Bright House Networks, Bergman was one of the original Bright House Networks founders; who together led the company to become the sixth-largest cable operator in the United States, with 8,500 employees, 2.5 million customers, and over $4B in annual revenue.</p><p>Bergman presently sits on the corporate board of publicly held Visteon Corporation and privately held 1010data, Mediamorph and Black & Veatch.As a board member at the University of Rochester, she remains closely connected to her alma mater. In addition, she is a board member of Adaptive Spirit, the Cable Center and One Revolution. She is also a longstanding memberof the FCC Technological Advisory Council (TAC), and a part-time Adjunct Professor at Syracuse University.</p>",
   "Image":"nbergman.png",
@@ -167,6 +167,4 @@
   "Image":"smuralidharan.png",
   "Designation":"Manager, ECO Self-Service Team, ARRIS"
   },
-  
-  
   ]

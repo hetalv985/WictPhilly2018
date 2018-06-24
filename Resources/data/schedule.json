@@ -41,9 +41,9 @@
   {
   "Time":"9:15am - 9:25am",
   "Title":"Orientation",
-  "Subtitle":"",
+  "Subtitle":"WICT Philadelphia Co-Directors, Tech It Out 2018",
   "Location":"TBD",
-  "Speakers":"Michele Corsini and Mary Malone, WICT Philadelphia Co-Directors, Tech It Out 2018"
+  "Speakers":"Michele Corsini, Senior Director of Solution Management, Comcast and Mary Malone, Principal Engineer, Comcast"
   },
   {
   "Time":"9:25am - 9:35am",
@@ -98,14 +98,14 @@
   "Title":"Introduction by ARRIS or Cisco",
   "Subtitle":"Ability Through Innovation: Empowering People with Disabilities",
   "Location":"TBD",
-  "Speakers":"Joel Moffat, Principle Product Manager, CX Lead, Accessibility",
+  "Speakers":"Joel Moffat, Principal Product Manager and Customer Experience Lead for Comcast’s Accessibility Team, Comcast",
   
   },
   {
   "Time":"11:30am - 12:45pm",
-  "Title":"Luncheon, Presentation and Film Screening",
+  "Title":"Luncheon, Presentation and Film Screening - Introduction by Chris Power and Alexa",
   "Subtitle":"Building an Inclusive Future Today",
-  "Location":"TBD",
+  "Location":"Connelly Center, Villanova Room",
   "Speakers":"Jennifer Cloer, Artist and Executive Producer, Wicked Flicks Productions",
   
   },
@@ -127,10 +127,10 @@
   },
   {
   "Time":"1:00pm - 1:45pm",
-  "Title":"Software and Hardware Considerations in Developing a Voice Platform",
+  "Title":"From Screens to Scenes: Voice in the Digital Home",
   "Subtitle":"",
   "Location":"Connelly Center, Villanova Cinema",
-  "Speakers":"Mariel Sabraw, Senior Product Manager, Comcast",
+  "Speakers":"Mariel Sabraw, Senior Product Manager, Comcast and Bryan Kissinger, Product Director on the Digital Home team, Comcast",
   "Label":"Breakout Session 1 - Track 2"
   },
   {
@@ -177,17 +177,9 @@
   "Time":"2:00pm - 2:45pm",
   "Title":"Computing at the Edge Still Has an Edge",
   "Subtitle":"",
-  "Location":"Bartley Hall, Room 3010",
+  "Location":"Bartley Hall, Room 023A",
   "Speakers":"Arun Ravisankar, Senior Engineer, CPE and Home Network, Comcast",
   "Label":"Breakout Session 2 - Track 3"
-  },
-  {
-  "Time":"2:00pm - 2:45pm",
-  "Title":"",
-  "Subtitle":"",
-  "Location":"TBD",
-  "Speakers":"",
-  "Label":"Breakout Session 2 - Track 4"
   },
   {
   "Time":"2:45pm - 3:15pm",
@@ -199,10 +191,10 @@
   },
   {
   "Time":"3:15pm - 4:00pm",
-  "Title":"ARRIS Voice Assistants to Manage Home Wi-Fi Devices",
+  "Title":"TBD - Google Assistant",
   "Subtitle":"",
   "Location":"Connelly Center,  Villanova Room",
-  "Speakers":"Satyasree Muralidharan, Software Engineering Manager, ARRIS",
+  "Speakers":"Sunghee Moon",
   "Label":"Breakout Session 3 - Track 1"
   },
   {
@@ -223,10 +215,10 @@
   },
   {
   "Time":"3:15pm - 4:00pm",
-  "Title":"Student interns",
+  "Title":"ARRIS Voice Assistants to Manage Home Wi-Fi Devices",
   "Subtitle":"",
   "Location":"Bartley Hall, Room 023A",
-  "Speakers":"",
+  "Speakers":"Satyasree Muralidharan, Software Engineering Manager, ARRIS",
   "Label":"Breakout Session 3 - Track 4"
   },
   {
