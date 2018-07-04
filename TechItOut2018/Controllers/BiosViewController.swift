@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import SafariServices
 
 class BiosViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     let bios = Bios()
     var numOfRows = 0
     let bioPerRow = 2
     
+    @IBAction func navigateToRegister(_ sender: Any) {
+        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07ef910bkua2d2fc1c&oseq=&c=&ch=")!)
+        self.present(sfViewController, animated: true, completion: nil)
+    }
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return numOfRows
     }
@@ -44,7 +49,6 @@ class BiosViewController: UIViewController, UICollectionViewDelegate, UICollecti
         nameLabel.text = bio.name
         positionLabel.text = bio.designation
         
-        imgView.layer.cornerRadius = 28
         imgView.layer.masksToBounds = true
         imgView.image = UIImage.init(named: bio.imageName)
         

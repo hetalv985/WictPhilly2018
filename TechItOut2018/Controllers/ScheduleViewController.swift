@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import SafariServices
 
 class ScheduleViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var scheduleTableView: UITableView!
     let eventSchedule = Schedule()
     
+    @IBAction func navigateToRegister(_ sender: Any) {
+        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07ef910bkua2d2fc1c&oseq=&c=&ch=")!)
+        self.present(sfViewController, animated: true, completion: nil)
+    }
     func numberOfSections(in tableView: UITableView) -> Int {
         return eventSchedule.scheduleItems.count
     }

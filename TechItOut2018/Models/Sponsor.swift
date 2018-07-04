@@ -9,5 +9,7 @@
 import UIKit
 
 class Sponsor: NSObject {
+    var title = ""
+    var logos = [String]()
 
 }

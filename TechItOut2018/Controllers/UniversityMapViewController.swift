@@ -1,23 +1,19 @@
 //
-//  LocateViewController.swift
+//  UniversityMapViewController.swift
 //  TechItOut2018
 //
-//  Created by Vora, Hetal (Contractor) on 4/15/18.
+//  Created by Vora, Hetal (Contractor) on 7/3/18.
 //  Copyright © 2018 Vora, Hetal (Contractor). All rights reserved.
 //
 
 import UIKit
-import SafariServices
 
-class LocateViewController: UIViewController {
+class UniversityMapViewController: UIViewController, EFImageViewZoomDelegate {
 
-    @IBAction func navigateToRegister(_ sender: Any) {
-        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07ef910bkua2d2fc1c&oseq=&c=&ch=")!)
-        self.present(sfViewController, animated: true, completion: nil)
-    }
-    
+    @IBOutlet var imgViewZoom: EFImageViewZoom!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.imgViewZoom._delegate = self
 
         // Do any additional setup after loading the view.
     }

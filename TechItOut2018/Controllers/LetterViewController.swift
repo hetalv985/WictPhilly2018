@@ -1,25 +1,23 @@
 //
-//  LocateViewController.swift
+//  LetterViewController.swift
 //  TechItOut2018
 //
-//  Created by Vora, Hetal (Contractor) on 4/15/18.
+//  Created by Vora, Hetal (Contractor) on 6/27/18.
 //  Copyright © 2018 Vora, Hetal (Contractor). All rights reserved.
 //
 
 import UIKit
-import SafariServices
 
-class LocateViewController: UIViewController {
+class LetterViewController: UIViewController, EFImageViewZoomDelegate {
 
-    @IBAction func navigateToRegister(_ sender: Any) {
-        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07ef910bkua2d2fc1c&oseq=&c=&ch=")!)
-        self.present(sfViewController, animated: true, completion: nil)
-    }
-    
+    @IBOutlet var imgViewZoom: EFImageViewZoom!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.imgViewZoom._delegate = self
+//        self.imgViewZoom.image = UIImage(named: "mbrennan_letter")
+//        self.imgViewZoom.contentMode = .left
     }
 
     override func didReceiveMemoryWarning() {

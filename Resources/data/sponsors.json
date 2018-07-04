@@ -1,26 +1,30 @@
 [
 {
-	"Title":"WICT Global Tech It Out Sponsors",
+	"Title":"WICT Tech It Out Global Sponsors",
 	"Sponsors":["arris.png","cisco.png"]
 },
 {
-	"Title":"WICT Global Tech It Out Industry Partners",
+	"Title":"WICT Tech It Out Industry Partners",
 	"Sponsors":["kaitz.png","namic.png"]
 },
 {
-	"Title":"Premier Sponsors",
-	"Sponsors":["cisco.png","comcastbusiness.png","tpx.png"]
+	"Title":"WICT Of Greater Philadelphia Premier Sponsors",
+	"Sponsors":["cisco.png","comcastbusiness.png","comcastfreewheel.png","tpx.png"]
 },
 {
-	"Title":"Platinum Sponsors",
+	"Title":"WICT Of Greater Philadelphia Platinum Sponsors",
 	"Sponsors":["arris.png","pwc.png","qvc.png","scte.png","signature.png"]
 },
 {
-	"Title":"Gold Sponsors",
-	"Sponsors":["ae.png","amdocs.png","eplus.png","espn.png","hbo.png","juniper.png","optia.png","pureintegration.png"]
+	"Title":"WICT Of Greater Philadelphia Gold Sponsors",
+	"Sponsors":["ae.png","amdocs.png","eplus.png","espn.png"]
 },
 {
-	"Title":"Gold Sponsors",
+ "Title":"",
+ "Sponsors":["hbo.png","juniper.png","optia.png","pureintegration.png"]
+ },
+{
+	"Title":"WICT Of Greater Philadelphia Silver Sponsors",
 	"Sponsors":["partners.png","stafftech.png"]
 }
 

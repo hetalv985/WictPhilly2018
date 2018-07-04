@@ -10,18 +10,20 @@ import UIKit
 import WebKit
 
 class BioDetailViewController: UIViewController {
-    @IBOutlet weak var bioDetailWebView: WKWebView!
 
     var bioData: Bio = Bio()
+    
+    @IBOutlet weak var profileDesignation: UILabel!
+    @IBOutlet weak var profileDescTextView: UITextView!
+    @IBOutlet weak var profileImgView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let bundleUrl = URL(fileURLWithPath:Bundle.main.bundlePath)
-        let profileDescriptionStr = "<div style='font-family:Brandon;font-size:32px'>"+bioData.profileDescription+"</div>"
-        self.bioDetailWebView.loadHTMLString(profileDescriptionStr,baseURL: bundleUrl)
         self.navigationItem.title = bioData.name
-        self.edgesForExtendedLayout = []
+        self.profileDescTextView.text = bioData.profileDescription
+        self.profileImgView.image = UIImage.init(named: bioData.imageName)
+        self.profileDesignation.text = bioData.designation
     }
 
     override func didReceiveMemoryWarning() {

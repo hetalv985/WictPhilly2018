@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2AAD7C42B944A8A854EE8AA8 /* Pods_TechItOut2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74337EB3F2B31AEAB74536D3 /* Pods_TechItOut2018.framework */; };
+		3D009CB020E3F37A00468F61 /* EFImageViewZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D009CAF20E3F37A00468F61 /* EFImageViewZoom.swift */; };
+		3D009CB220E3F4F400468F61 /* LetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D009CB120E3F4F400468F61 /* LetterViewController.swift */; };
 		3D065C3C207955BF00137AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D065C3B207955BF00137AE2 /* AppDelegate.swift */; };
 		3D065C3E207955BF00137AE2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D065C3D207955BF00137AE2 /* AboutViewController.swift */; };
 		3D065C41207955BF00137AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C3F207955BF00137AE2 /* Main.storyboard */; };
 		3D065C43207955BF00137AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C42207955BF00137AE2 /* Assets.xcassets */; };
 		3D065C46207955BF00137AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C44207955BF00137AE2 /* LaunchScreen.storyboard */; };
+		3D2332F920E0835D00845A12 /* sponsors.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D2332F820E0835D00845A12 /* sponsors.json */; };
+		3D2332FB20E0838400845A12 /* Sponsors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2332FA20E0838400845A12 /* Sponsors.swift */; };
+		3D2332FD20E083C100845A12 /* Sponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2332FC20E083C100845A12 /* Sponsor.swift */; };
 		3D61CDB420D6D4D7001846AD /* BioDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61CDB320D6D4D7001846AD /* BioDetailViewController.swift */; };
 		3DAC380720BA1B37003FFE67 /* bios.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC380520BA1B37003FFE67 /* bios.json */; };
 		3DAC380820BA1B37003FFE67 /* schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC380620BA1B37003FFE67 /* schedule.json */; };
@@ -34,11 +39,15 @@
 		3DBB0FD22083ED0A00B223A3 /* Brandon_med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC62083ED0A00B223A3 /* Brandon_med.otf */; };
 		3DBB0FD32083ED0A00B223A3 /* Brandon_reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC72083ED0A00B223A3 /* Brandon_reg.otf */; };
 		3DBB0FD42083ED0A00B223A3 /* Brandon_reg_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC82083ED0A00B223A3 /* Brandon_reg_it.otf */; };
+		3DC057AF20EC66A00059C04E /* UniversityMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC057AE20EC66A00059C04E /* UniversityMapViewController.swift */; };
+		3DC057B120ED1A140059C04E /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC057B020ED1A140059C04E /* ThankYouViewController.swift */; };
 		3DEC172020CDD309005CF040 /* Bios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC171F20CDD309005CF040 /* Bios.swift */; };
 		3DEC172220CDD31F005CF040 /* Bio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC172120CDD31F005CF040 /* Bio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D009CAF20E3F37A00468F61 /* EFImageViewZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFImageViewZoom.swift; sourceTree = "<group>"; };
+		3D009CB120E3F4F400468F61 /* LetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterViewController.swift; sourceTree = "<group>"; };
 		3D065C38207955BF00137AE2 /* TechItOut2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechItOut2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D065C3B207955BF00137AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D065C3D207955BF00137AE2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +55,9 @@
 		3D065C42207955BF00137AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D065C45207955BF00137AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D065C47207955BF00137AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2332F820E0835D00845A12 /* sponsors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sponsors.json; sourceTree = "<group>"; };
+		3D2332FA20E0838400845A12 /* Sponsors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sponsors.swift; sourceTree = "<group>"; };
+		3D2332FC20E083C100845A12 /* Sponsor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sponsor.swift; sourceTree = "<group>"; };
 		3D61CDB320D6D4D7001846AD /* BioDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioDetailViewController.swift; sourceTree = "<group>"; };
 		3DAC380520BA1B37003FFE67 /* bios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bios.json; sourceTree = "<group>"; };
 		3DAC380620BA1B37003FFE67 /* schedule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schedule.json; sourceTree = "<group>"; };
@@ -67,6 +79,8 @@
 		3DBB0FC62083ED0A00B223A3 /* Brandon_med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_med.otf; sourceTree = "<group>"; };
 		3DBB0FC72083ED0A00B223A3 /* Brandon_reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg.otf; sourceTree = "<group>"; };
 		3DBB0FC82083ED0A00B223A3 /* Brandon_reg_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg_it.otf; sourceTree = "<group>"; };
+		3DC057AE20EC66A00059C04E /* UniversityMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityMapViewController.swift; sourceTree = "<group>"; };
+		3DC057B020ED1A140059C04E /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
 		3DEC171F20CDD309005CF040 /* Bios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bios.swift; sourceTree = "<group>"; };
 		3DEC172120CDD31F005CF040 /* Bio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bio.swift; sourceTree = "<group>"; };
 		74337EB3F2B31AEAB74536D3 /* Pods_TechItOut2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechItOut2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				3DAC380520BA1B37003FFE67 /* bios.json */,
+				3D2332F820E0835D00845A12 /* sponsors.json */,
 				3DAC380620BA1B37003FFE67 /* schedule.json */,
 			);
 			path = data;
@@ -135,6 +150,8 @@
 				3DAC380E20BB251B003FFE67 /* ScheduleItem.swift */,
 				3DEC171F20CDD309005CF040 /* Bios.swift */,
 				3DEC172120CDD31F005CF040 /* Bio.swift */,
+				3D2332FA20E0838400845A12 /* Sponsors.swift */,
+				3D2332FC20E083C100845A12 /* Sponsor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,12 +159,16 @@
 		3DAC380B20BB24BC003FFE67 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3D009CAF20E3F37A00468F61 /* EFImageViewZoom.swift */,
 				3D065C3D207955BF00137AE2 /* AboutViewController.swift */,
 				3DBB0FB12082D9B000B223A3 /* ScheduleViewController.swift */,
 				3DBB0FB42083DD7F00B223A3 /* BiosViewController.swift */,
 				3DBB0FB62083DD9300B223A3 /* SponsorsViewController.swift */,
 				3DBB0FB82083DDB700B223A3 /* LocateViewController.swift */,
 				3D61CDB320D6D4D7001846AD /* BioDetailViewController.swift */,
+				3D009CB120E3F4F400468F61 /* LetterViewController.swift */,
+				3DC057AE20EC66A00059C04E /* UniversityMapViewController.swift */,
+				3DC057B020ED1A140059C04E /* ThankYouViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -262,6 +283,7 @@
 				3D065C46207955BF00137AE2 /* LaunchScreen.storyboard in Resources */,
 				3DBB0FD42083ED0A00B223A3 /* Brandon_reg_it.otf in Resources */,
 				3DAC380820BA1B37003FFE67 /* schedule.json in Resources */,
+				3D2332F920E0835D00845A12 /* sponsors.json in Resources */,
 				3DBB0FCD2083ED0A00B223A3 /* Brandon_light_it.otf in Resources */,
 				3DBB0FCC2083ED0A00B223A3 /* Brandon_blk.otf in Resources */,
 				3DBB0FD02083ED0A00B223A3 /* Brandon_thin.otf in Resources */,
@@ -324,17 +346,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D009CB020E3F37A00468F61 /* EFImageViewZoom.swift in Sources */,
+				3DC057AF20EC66A00059C04E /* UniversityMapViewController.swift in Sources */,
+				3D009CB220E3F4F400468F61 /* LetterViewController.swift in Sources */,
 				3D61CDB420D6D4D7001846AD /* BioDetailViewController.swift in Sources */,
 				3DBB0FB92083DDB700B223A3 /* LocateViewController.swift in Sources */,
 				3DAC380F20BB251B003FFE67 /* ScheduleItem.swift in Sources */,
+				3D2332FD20E083C100845A12 /* Sponsor.swift in Sources */,
 				3DBB0FB72083DD9300B223A3 /* SponsorsViewController.swift in Sources */,
 				3DBB0FB22082D9B000B223A3 /* ScheduleViewController.swift in Sources */,
 				3D065C3E207955BF00137AE2 /* AboutViewController.swift in Sources */,
 				3D065C3C207955BF00137AE2 /* AppDelegate.swift in Sources */,
 				3DAC380D20BB24F7003FFE67 /* Schedule.swift in Sources */,
+				3D2332FB20E0838400845A12 /* Sponsors.swift in Sources */,
 				3DEC172020CDD309005CF040 /* Bios.swift in Sources */,
 				3DEC172220CDD31F005CF040 /* Bio.swift in Sources */,
 				3DBB0FB52083DD7F00B223A3 /* BiosViewController.swift in Sources */,
+				3DC057B120ED1A140059C04E /* ThankYouViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKT38J7F4W;
 				INFOPLIST_FILE = TechItOut2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wict.techitout.TechItOut2018;
@@ -488,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SKT38J7F4W;
 				INFOPLIST_FILE = TechItOut2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wict.techitout.TechItOut2018;
