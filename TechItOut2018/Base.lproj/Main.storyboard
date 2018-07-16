@@ -24,24 +24,52 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AboutViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o9o-r4-4Fc">
-                                <rect key="frame" x="16" y="16" width="343" height="352"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o9o-r4-4Fc">
+                                <rect key="frame" x="16" y="16" width="343" height="346"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Almost half of American adults are using digital voice assistants on their smartphones, in their cars and on other devices such as Amazon Echo and Google Home. The advances in recent years of technologies to support voice and conversational user interfaces are transporting our businesses and society into a new age of voice control.
+                                <attributedString key="attributedText">
+                                    <fragment content="THE AGE OF VOICE CONTROL">
+                                        <attributes>
+                                            <color key="NSColor" red="0.68627450980392157" green="0.28235294117647058" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="BrandonGrotesque-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Presented by the Greater Philadelphia Chapter of Women in Cable Telecommunications in partnership with WICT Global
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="BrandonGrotesque-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="July 18, 2018 - Villanova University, Villanova, PA">
+                                        <attributes>
+                                            <color key="NSColor" red="0.68627450980392157" green="0.28235294117647058" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="BrandonGrotesque-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+Almost half of American adults are using digital voice assistants on their smartphones, in their cars and on other devices such as Amazon Echo and Google Home. The advances in recent years of technologies to support voice and conversational user interfaces are transporting our businesses and society into a new age of voice control.
 Join us at WICT TIO 2018 and meet some of the experts who will demo products and talk about how voice and conversational user interfaces are designed, what technologies enable them, how they are being used, and why they are changing our lives.
-Our event is open to the public, including men and women. Students under 18 must be supervised by an adult.
-REGISTER TODAY!
-http://www.wictphiladelphia.org/event/tio2018</string>
-                                <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="17"/>
+Our event is open to the public, including men and women. Students under 18 must be supervised by an adult.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="BrandonGrotesque-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn1-13-QKv">
-                                <rect key="frame" x="16" y="392" width="343" height="37"/>
+                                <rect key="frame" x="16" y="386" width="343" height="37"/>
                                 <color key="backgroundColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="17"/>
                                 <state key="normal" title="Read Maria Brennan's letter">
@@ -52,10 +80,10 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfA-6p-ruF">
-                                <rect key="frame" x="16" y="445" width="343" height="37"/>
+                                <rect key="frame" x="16" y="439" width="343" height="37"/>
                                 <color key="backgroundColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="17"/>
-                                <state key="normal" title="Our Thanks To...">
+                                <state key="normal" title="Special Thanks To...">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -94,7 +122,7 @@ http://www.wictphiladelphia.org/event/tio2018</string>
         <scene sceneID="hIf-e7-BFi">
             <objects>
                 <viewController id="NVr-X3-pMV" customClass="LetterViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="X95-kJ-5We" customClass="EFImageViewZoom" customModule="TechItOut2018" customModuleProvider="target">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleAspectFit" id="X95-kJ-5We" customClass="EFImageViewZoom" customModule="TechItOut2018" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -118,16 +146,16 @@ http://www.wictphiladelphia.org/event/tio2018</string>
             </objects>
             <point key="canvasLocation" x="2637.5999999999999" y="31.934032983508249"/>
         </scene>
-        <!--Our Thanks To...-->
+        <!--Special Thanks To...-->
         <scene sceneID="RXE-Eb-sV5">
             <objects>
                 <viewController id="hrM-Co-9OX" customClass="ThankYouViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oTd-NV-PcP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33n-zc-OXR">
-                                <rect key="frame" x="16" y="16" width="343" height="470"/>
+                                <rect key="frame" x="16" y="16" width="343" height="464"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
@@ -143,7 +171,7 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ukg-pb-yrD"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Our Thanks To..." id="YRl-ku-p33"/>
+                    <navigationItem key="navigationItem" title="Special Thanks To..." id="YRl-ku-p33"/>
                     <connections>
                         <outlet property="thanksTextView" destination="33n-zc-OXR" id="jgk-Wq-IRs"/>
                     </connections>
@@ -157,11 +185,11 @@ http://www.wictphiladelphia.org/event/tio2018</string>
             <objects>
                 <viewController id="bWf-Fp-QNb" customClass="ScheduleViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DWC-QK-lvr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="eac-8Z-XPK">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="502"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="496"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Header" textLabel="lbr-m6-TUu" style="IBUITableViewCellStyleDefault" id="NSw-0H-TNy">
@@ -276,6 +304,9 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                                 <rect key="frame" x="16" y="48.5" width="343" height="38"/>
                                 <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="18"/>
                                 <state key="normal" title="Villanova University, 800 E Lancaster Avenue, Villanova, PA, 19085"/>
+                                <connections>
+                                    <action selector="openMap:" destination="hGh-xy-gku" eventType="touchUpInside" id="XFU-eX-T3T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJM-ar-Nud">
                                 <rect key="frame" x="16" y="106.5" width="343" height="251"/>
@@ -283,6 +314,9 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                                     <constraint firstAttribute="height" constant="251" id="6HB-wJ-Ueh"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="map"/>
+                                <connections>
+                                    <action selector="openMap:" destination="hGh-xy-gku" eventType="touchUpInside" id="Nqs-N7-XJz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6o-P0-cYK">
                                 <rect key="frame" x="16" y="394.5" width="343" height="40"/>
@@ -332,7 +366,7 @@ http://www.wictphiladelphia.org/event/tio2018</string>
         <scene sceneID="zic-G1-FCD">
             <objects>
                 <viewController id="oyg-2C-vI0" customClass="UniversityMapViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DQE-ID-amQ" customClass="EFImageViewZoom" customModule="TechItOut2018" customModuleProvider="target">
+                    <view key="view" contentMode="scaleAspectFit" id="DQE-ID-amQ" customClass="EFImageViewZoom" customModule="TechItOut2018" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -361,12 +395,12 @@ http://www.wictphiladelphia.org/event/tio2018</string>
             <objects>
                 <viewController id="RJI-b9-WEB" customClass="SponsorsViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7b8-UY-DgC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="xwl-ds-cMP">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="502"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="496"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
@@ -380,8 +414,9 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M9x-dV-ypf">
                                                     <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" red="0.81960784310000001" green="0.82352941180000006" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="14"/>
-                                                    <color key="textColor" red="0.2470588235" green="0.76862745099999996" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -443,11 +478,11 @@ http://www.wictphiladelphia.org/event/tio2018</string>
             <objects>
                 <viewController id="rZx-PC-Eds" customClass="BiosViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0KW-L7-jbp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yQh-Ij-mf5">
-                                <rect key="frame" x="16" y="0.0" width="343" height="502"/>
+                                <rect key="frame" x="16" y="0.0" width="343" height="496"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LrP-fb-wBY">
                                     <size key="itemSize" width="161" height="220"/>
@@ -535,18 +570,18 @@ http://www.wictphiladelphia.org/event/tio2018</string>
             <objects>
                 <viewController id="N0K-0T-lLd" customClass="BioDetailViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VAN-ET-aXb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tXJ-uf-0Qr">
-                                <rect key="frame" x="67" y="20" width="240" height="128"/>
+                                <rect key="frame" x="67.5" y="20" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="jjg-JM-v8L"/>
                                     <constraint firstAttribute="height" constant="128" id="svB-1V-7hG"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aKz-6s-1GT">
-                                <rect key="frame" x="16" y="204.5" width="343" height="277.5"/>
+                                <rect key="frame" x="16" y="204.5" width="343" height="271.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -611,14 +646,14 @@ http://www.wictphiladelphia.org/event/tio2018</string>
             </objects>
             <point key="canvasLocation" x="-409" y="1164"/>
         </scene>
-        <!--About-->
+        <!--Info-->
         <scene sceneID="cA2-Bd-OCe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Mt-1Y-XSb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About" image="about" selectedImage="about" id="6z9-8W-DaZ"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="about" selectedImage="about" id="6z9-8W-DaZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="YSR-v7-VJz">
-                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -647,7 +682,7 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                     <tabBarItem key="tabBarItem" title="Schedule" image="schedule" selectedImage="schedule" id="AgD-t2-g9Z"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="EqW-xa-qWo">
-                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.30588235294117649" green="0.35686274509803922" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -675,7 +710,7 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                     <tabBarItem key="tabBarItem" title="Locate" image="locate" selectedImage="locate" id="FRu-Sy-GQU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="pND-AC-irs">
-                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -704,7 +739,7 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                     <tabBarItem key="tabBarItem" title="Sponsors" image="sponsor" selectedImage="sponsor" id="YE7-Bd-3m1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="3tO-xq-va6">
-                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.24705882352941178" green="0.76862745098039209" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -732,7 +767,7 @@ http://www.wictphiladelphia.org/event/tio2018</string>
                     <tabBarItem key="tabBarItem" title="Bios" image="bios" selectedImage="bios" id="TvR-mD-ppP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="mTU-yy-DIv">
-                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -13,19 +13,27 @@
 },
 {
 	"Title":"WICT Of Greater Philadelphia Platinum Sponsors",
-	"Sponsors":["arris.png","pwc.png","qvc.png","scte.png","signature.png"]
+	"Sponsors":["arris.png","pwc.png","pluralsight","qvc.png"]
 },
+ {
+ "Title":"",
+ "Sponsors":["scte.png","signature.png","",""]
+ },
 {
 	"Title":"WICT Of Greater Philadelphia Gold Sponsors",
-	"Sponsors":["ae.png","amdocs.png","eplus.png","espn.png"]
+	"Sponsors":["ae.png","amdocs.png","csg.png","eplus.png"]
 },
 {
  "Title":"",
- "Sponsors":["hbo.png","juniper.png","optia.png","pureintegration.png"]
+ "Sponsors":["espn.png","hbo.png","juniper.png","optia.png"]
+ },
+ {
+ "Title":"",
+ "Sponsors":["pureintegration.png","","",""]
  },
 {
 	"Title":"WICT Of Greater Philadelphia Silver Sponsors",
-	"Sponsors":["partners.png","stafftech.png"]
+	"Sponsors":["partners.png","stafftech.png","mediacopy.png",""]
 }
 
 ]

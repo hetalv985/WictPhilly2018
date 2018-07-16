@@ -17,7 +17,7 @@ class LetterViewController: UIViewController, EFImageViewZoomDelegate {
         // Do any additional setup after loading the view.
         self.imgViewZoom._delegate = self
 //        self.imgViewZoom.image = UIImage(named: "mbrennan_letter")
-//        self.imgViewZoom.contentMode = .left
+ //       self.imgViewZoom.contentMode = .topLeft
     }
 
     override func didReceiveMemoryWarning() {

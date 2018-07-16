@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,18 +15,27 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ageOfVoiceControl" translatesAutoresizingMaskIntoConstraints="NO" id="MpH-fE-GCJ">
-                                <rect key="frame" x="24" y="16" width="327" height="635"/>
+                                <rect key="frame" x="24" y="52" width="327" height="597"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="3je-Lt-5E0">
+                                <rect key="frame" x="0.0" y="678" width="375" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9tS-0W-sjc"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="3je-Lt-5E0" firstAttribute="top" secondItem="MpH-fE-GCJ" secondAttribute="bottom" constant="29" id="Dug-3o-B0H"/>
+                            <constraint firstItem="3je-Lt-5E0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Lol-hf-jKJ"/>
+                            <constraint firstItem="3je-Lt-5E0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Met-Ox-joJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MpH-fE-GCJ" secondAttribute="trailing" constant="24" id="XLp-ec-nfc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MpH-fE-GCJ" secondAttribute="bottom" constant="16" id="do7-WX-pdI"/>
-                            <constraint firstItem="MpH-fE-GCJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-4" id="hXb-mb-1xk"/>
+                            <constraint firstItem="3je-Lt-5E0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="epF-Iv-fvQ"/>
+                            <constraint firstItem="MpH-fE-GCJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="hXb-mb-1xk"/>
                             <constraint firstItem="MpH-fE-GCJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="iN3-O4-dgT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,5 +48,6 @@
     </scenes>
     <resources>
         <image name="ageOfVoiceControl" width="612" height="792"/>
+        <image name="bottom" width="567" height="148"/>
     </resources>
 </document>

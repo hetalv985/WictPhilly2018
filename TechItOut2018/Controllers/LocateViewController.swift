@@ -16,6 +16,15 @@ class LocateViewController: UIViewController {
         self.present(sfViewController, animated: true, completion: nil)
     }
     
+    @IBAction func openMap(_ sender: UIButton) {
+        let baseUrl: String = "http://maps.apple.com/?q="
+        let encodedName = "Villanova University, 800 E. Lancaster Ave, Villanova, PA 19085".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+        let finalUrl = baseUrl + encodedName
+        if let url = URL(string: finalUrl)
+        {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
