@@ -15,7 +15,7 @@ class BiosViewController: UIViewController, UICollectionViewDelegate, UICollecti
     let bioPerRow = 2
     
     @IBAction func navigateToRegister(_ sender: Any) {
-        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07ef910bkua2d2fc1c&oseq=&c=&ch=")!)
+        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07eg8v711o924e7de0&oseq=&c=&ch=")!)
         self.present(sfViewController, animated: true, completion: nil)
     }
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -63,7 +63,7 @@ class BiosViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
         // Do any additional setup after loading the view.
         bios.readBios()
-        numOfRows = Int(ceil(Double(bios.bios.count/bioPerRow)))
+        numOfRows = Int(ceil(Double(bios.bios.count)/Double(bioPerRow)))
         
     }
 

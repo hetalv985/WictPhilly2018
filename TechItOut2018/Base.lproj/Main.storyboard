@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1MN-4i-ekx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1MN-4i-ekx">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Brandon_bld.otf">
-            <string>BrandonGrotesque-Bold</string>
+        <array key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
         </array>
-        <array key="Brandon_reg.otf">
-            <string>BrandonGrotesque-Regular</string>
+        <array key="Gotham-Book.otf">
+            <string>Gotham-Book</string>
         </array>
     </customFonts>
     <scenes>
@@ -24,65 +23,160 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AboutViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="548.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o9o-r4-4Fc">
-                                <rect key="frame" x="16" y="16" width="343" height="346"/>
+                                <rect key="frame" x="16" y="16" width="343" height="403"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="THE AGE OF VOICE CONTROL">
-                                        <attributes>
-                                            <color key="NSColor" red="0.68627450980392157" green="0.28235294117647058" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="17" name="BrandonGrotesque-Regular"/>
-                                        </attributes>
-                                    </fragment>
                                     <fragment>
-                                        <string key="content">
-Presented by the Greater Philadelphia Chapter of Women in Cable Telecommunications in partnership with WICT Global
-
+                                        <string key="content">Tech It Out 2019 Emerging Technologies – Explore the Possibilities 
 </string>
                                         <attributes>
-                                            <color key="NSColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="17" name="BrandonGrotesque-Regular"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="July 18, 2018 - Villanova University, Villanova, PA">
-                                        <attributes>
-                                            <color key="NSColor" red="0.68627450980392157" green="0.28235294117647058" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="17" name="BrandonGrotesque-Regular"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="Gotham-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="14" headIndent="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
-
-Almost half of American adults are using digital voice assistants on their smartphones, in their cars and on other devices such as Amazon Echo and Google Home. The advances in recent years of technologies to support voice and conversational user interfaces are transporting our businesses and society into a new age of voice control.
-Join us at WICT TIO 2018 and meet some of the experts who will demo products and talk about how voice and conversational user interfaces are designed, what technologies enable them, how they are being used, and why they are changing our lives.
-Our event is open to the public, including men and women. Students under 18 must be supervised by an adult.</string>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
                                         <attributes>
-                                            <color key="NSColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="17" name="BrandonGrotesque-Regular"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="Gotham-Book"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Presented by the Greater Philadelphia Chapter of Women in Cable Telecommunications ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="12" name="Gotham-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="14" headIndent="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="14" headIndent="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="Gotham-Book"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Come join us on June 25th to learn more about Data Privacy, Security, Cloud, Digital Transformation, Artificial Intelligence and much more!
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="Gotham-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="14" headIndent="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="Gotham-Book"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">June 25, 2019  8:00am – 4:30pm Philadelphia 201 Hotel, Philadelphia, PA  
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="Gotham-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="14" headIndent="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="Gotham-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="36" headIndent="36" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">Tech It Out is an all-day conference celebrating cutting-edge technologies, innovation, STEM Student Outreach, expert speakers, and influential technology leaders.  Tech IT Out gives our stakeholders tools they need to keep pace with the latest advances in technology while connecting them with industry leaders and pioneers.  And through Tech It Out, you will discover new and innovative technology to inspire you on your journey.  It’s time to Explore the Possibilities.
+</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="Gotham-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="14" headIndent="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="Gotham-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="36" headIndent="36" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Our event is open to the public, including men, women and students.
+Students under 18 must be supervised by an adult.</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="Gotham-Book"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="14" headIndent="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="14" headIndent="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn1-13-QKv">
-                                <rect key="frame" x="16" y="386" width="343" height="37"/>
-                                <color key="backgroundColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="17"/>
-                                <state key="normal" title="Read Maria Brennan's letter">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NVr-X3-pMV" kind="show" id="QGK-dq-GBX"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfA-6p-ruF">
-                                <rect key="frame" x="16" y="439" width="343" height="37"/>
-                                <color key="backgroundColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="17"/>
+                                <rect key="frame" x="16" y="447" width="343" height="33"/>
+                                <color key="backgroundColor" red="0.1058823529" green="0.56078431370000004" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="17"/>
                                 <state key="normal" title="Special Thanks To...">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -93,14 +187,11 @@ Our event is open to the public, including men and women. Students under 18 must
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fn1-13-QKv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8XQ-RV-DDC"/>
                             <constraint firstItem="JfA-6p-ruF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Gg8-JQ-FOu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JfA-6p-ruF" secondAttribute="trailing" constant="16" id="Ss9-3l-Wst"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o9o-r4-4Fc" secondAttribute="trailing" constant="16" id="aHH-1W-fHK"/>
-                            <constraint firstItem="JfA-6p-ruF" firstAttribute="top" secondItem="fn1-13-QKv" secondAttribute="bottom" constant="16" id="dwM-Ti-c92"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fn1-13-QKv" secondAttribute="trailing" constant="16" id="eRe-ys-VuS"/>
                             <constraint firstItem="o9o-r4-4Fc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="kSy-bb-zOO"/>
-                            <constraint firstItem="fn1-13-QKv" firstAttribute="top" secondItem="o9o-r4-4Fc" secondAttribute="bottom" constant="24" id="u55-XJ-pPI"/>
+                            <constraint firstItem="JfA-6p-ruF" firstAttribute="top" secondItem="o9o-r4-4Fc" secondAttribute="bottom" constant="28" id="u9u-10-lCb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JfA-6p-ruF" secondAttribute="bottom" constant="20" id="wc4-cA-lu8"/>
                             <constraint firstItem="o9o-r4-4Fc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xRD-IF-bsq"/>
                         </constraints>
@@ -118,47 +209,19 @@ Our event is open to the public, including men and women. Students under 18 must
             </objects>
             <point key="canvasLocation" x="1911.2" y="31.934032983508249"/>
         </scene>
-        <!--Letter-->
-        <scene sceneID="hIf-e7-BFi">
-            <objects>
-                <viewController id="NVr-X3-pMV" customClass="LetterViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleAspectFit" id="X95-kJ-5We" customClass="EFImageViewZoom" customModule="TechItOut2018" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="ue5-qb-ax2"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="mbrennan_letter"/>
-                            <userDefinedRuntimeAttribute type="number" keyPath="_minimumZoomScale">
-                                <real key="value" value="1"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="number" keyPath="_maximumZoomScale">
-                                <real key="value" value="6"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                    </view>
-                    <navigationItem key="navigationItem" title="Letter" id="vaI-uM-nVt"/>
-                    <connections>
-                        <outlet property="imgViewZoom" destination="X95-kJ-5We" id="lxf-ut-CME"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XZd-lz-Sd4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2637.5999999999999" y="31.934032983508249"/>
-        </scene>
         <!--Special Thanks To...-->
         <scene sceneID="RXE-Eb-sV5">
             <objects>
                 <viewController id="hrM-Co-9OX" customClass="ThankYouViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oTd-NV-PcP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33n-zc-OXR">
-                                <rect key="frame" x="16" y="16" width="343" height="464"/>
+                                <rect key="frame" x="16" y="16" width="343" height="470"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -185,11 +248,11 @@ Our event is open to the public, including men and women. Students under 18 must
             <objects>
                 <viewController id="bWf-Fp-QNb" customClass="ScheduleViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DWC-QK-lvr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="eac-8Z-XPK">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="496"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Header" textLabel="lbr-m6-TUu" style="IBUITableViewCellStyleDefault" id="NSw-0H-TNy">
@@ -202,8 +265,8 @@ Our event is open to the public, including men and women. Students under 18 must
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lbr-m6-TUu">
                                                     <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="14"/>
-                                                    <color key="textColor" red="0.30588235289999999" green="0.35686274509999999" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="14"/>
+                                                    <color key="textColor" red="0.1058823529" green="0.56078431370000004" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -221,27 +284,27 @@ Our event is open to the public, including men and women. Students under 18 must
                                                     <rect key="frame" x="15" y="19" width="345" height="147"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" tag="1" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAI-Sb-qyv">
-                                                            <rect key="frame" x="0.0" y="0.0" width="345" height="27.5"/>
-                                                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="19"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="345" height="23"/>
+                                                            <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="19"/>
                                                             <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" multipleTouchEnabled="YES" tag="2" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCB-Z4-FAg">
-                                                            <rect key="frame" x="0.0" y="27.5" width="345" height="23"/>
-                                                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="16"/>
+                                                            <rect key="frame" x="0.0" y="23" width="345" height="19.5"/>
+                                                            <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="16"/>
                                                             <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" multipleTouchEnabled="YES" tag="3" contentMode="left" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Speakers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQe-d7-QNa">
-                                                            <rect key="frame" x="0.0" y="50.5" width="345" height="23"/>
-                                                            <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="16"/>
+                                                            <rect key="frame" x="0.0" y="42.5" width="345" height="19.5"/>
+                                                            <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="16"/>
                                                             <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" multipleTouchEnabled="YES" tag="4" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JI6-jK-qgd">
-                                                            <rect key="frame" x="0.0" y="73.5" width="345" height="73.5"/>
-                                                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="14"/>
-                                                            <color key="textColor" red="0.30588235289999999" green="0.35686274509999999" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <rect key="frame" x="0.0" y="62" width="345" height="85"/>
+                                                            <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="14"/>
+                                                            <color key="textColor" red="0.1058823529" green="0.56078431370000004" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -291,25 +354,27 @@ Our event is open to the public, including men and women. Students under 18 must
             <objects>
                 <viewController id="hGh-xy-gku" customClass="LocateViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zek-f9-qeC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="548.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join us for WICT Philadelphia Tech It Out event at: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1v-dN-0ur">
-                                <rect key="frame" x="16" y="16" width="343" height="24.5"/>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="17"/>
+                                <rect key="frame" x="16" y="16" width="343" height="41"/>
+                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="17"/>
                                 <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="r3f-D6-w6h">
-                                <rect key="frame" x="16" y="48.5" width="343" height="38"/>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="18"/>
-                                <state key="normal" title="Villanova University, 800 E Lancaster Avenue, Villanova, PA, 19085"/>
+                                <rect key="frame" x="16" y="82" width="343" height="34"/>
+                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="18"/>
+                                <state key="normal" title="Philadelphia 201 Hotel, 201 North 17th Street, Philadelphia, Pennsylvania 19103 USA">
+                                    <color key="titleColor" red="0.1058823529" green="0.56078431370000004" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="openMap:" destination="hGh-xy-gku" eventType="touchUpInside" id="XFU-eX-T3T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJM-ar-Nud">
-                                <rect key="frame" x="16" y="106.5" width="343" height="251"/>
+                                <rect key="frame" x="16" y="156" width="343" height="251"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="251" id="6HB-wJ-Ueh"/>
                                 </constraints>
@@ -318,35 +383,18 @@ Our event is open to the public, including men and women. Students under 18 must
                                     <action selector="openMap:" destination="hGh-xy-gku" eventType="touchUpInside" id="Nqs-N7-XJz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6o-P0-cYK">
-                                <rect key="frame" x="16" y="394.5" width="343" height="40"/>
-                                <color key="backgroundColor" red="0.92941176469999998" green="0.078431372550000003" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="nmu-5X-KWE"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="17"/>
-                                <state key="normal" title="University Map">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="oyg-2C-vI0" kind="show" id="v2w-1J-hJK"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="sJM-ar-Nud" firstAttribute="top" secondItem="r3f-D6-w6h" secondAttribute="bottom" constant="20" id="3ZX-9l-c0p"/>
+                            <constraint firstItem="sJM-ar-Nud" firstAttribute="top" secondItem="r3f-D6-w6h" secondAttribute="bottom" constant="40" id="3ZX-9l-c0p"/>
                             <constraint firstItem="ZQn-dF-QK7" firstAttribute="trailing" secondItem="r3f-D6-w6h" secondAttribute="trailing" constant="16" id="3ti-LP-T3F"/>
                             <constraint firstItem="r3f-D6-w6h" firstAttribute="leading" secondItem="ZQn-dF-QK7" secondAttribute="leading" constant="16" id="72y-RC-McF"/>
-                            <constraint firstItem="ZQn-dF-QK7" firstAttribute="trailing" secondItem="q6o-P0-cYK" secondAttribute="trailing" constant="16" id="8Ze-yn-ip4"/>
                             <constraint firstItem="X1v-dN-0ur" firstAttribute="leading" secondItem="ZQn-dF-QK7" secondAttribute="leading" constant="16" id="EoA-XN-0Bt"/>
                             <constraint firstItem="ZQn-dF-QK7" firstAttribute="trailing" secondItem="sJM-ar-Nud" secondAttribute="trailing" constant="16" id="Jm7-sQ-Wyq"/>
                             <constraint firstItem="X1v-dN-0ur" firstAttribute="top" secondItem="ZQn-dF-QK7" secondAttribute="top" constant="16" id="Kc8-IZ-nyf"/>
-                            <constraint firstItem="q6o-P0-cYK" firstAttribute="leading" secondItem="ZQn-dF-QK7" secondAttribute="leading" constant="16" id="Nza-3l-Bnu"/>
                             <constraint firstItem="ZQn-dF-QK7" firstAttribute="trailing" secondItem="X1v-dN-0ur" secondAttribute="trailing" constant="16" id="Q3s-MD-x3f"/>
-                            <constraint firstItem="q6o-P0-cYK" firstAttribute="top" secondItem="sJM-ar-Nud" secondAttribute="bottom" constant="37" id="Q8X-g2-0Pa"/>
                             <constraint firstItem="sJM-ar-Nud" firstAttribute="leading" secondItem="ZQn-dF-QK7" secondAttribute="leading" constant="16" id="ZXB-RE-mqJ"/>
-                            <constraint firstItem="r3f-D6-w6h" firstAttribute="top" secondItem="X1v-dN-0ur" secondAttribute="bottom" constant="8" id="zCX-bV-O4d"/>
+                            <constraint firstItem="r3f-D6-w6h" firstAttribute="top" secondItem="X1v-dN-0ur" secondAttribute="bottom" constant="25" id="zCX-bV-O4d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZQn-dF-QK7"/>
                     </view>
@@ -362,44 +410,16 @@ Our event is open to the public, including men and women. Students under 18 must
             </objects>
             <point key="canvasLocation" x="1909.5999999999999" y="1515.2923538230887"/>
         </scene>
-        <!--University Map-->
-        <scene sceneID="zic-G1-FCD">
-            <objects>
-                <viewController id="oyg-2C-vI0" customClass="UniversityMapViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleAspectFit" id="DQE-ID-amQ" customClass="EFImageViewZoom" customModule="TechItOut2018" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Mbs-Ya-jcT"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="universitymap"/>
-                            <userDefinedRuntimeAttribute type="number" keyPath="_minimumZoomScale">
-                                <real key="value" value="1"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="number" keyPath="_maximumZoomScale">
-                                <real key="value" value="6"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                    </view>
-                    <navigationItem key="navigationItem" title="University Map" id="8kR-i5-lHM"/>
-                    <connections>
-                        <outlet property="imgViewZoom" destination="DQE-ID-amQ" id="Vll-ND-6pl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rbe-WK-vUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2773.5999999999999" y="1514.392803598201"/>
-        </scene>
         <!--Sponsors-->
         <scene sceneID="uyY-kC-kzI">
             <objects>
                 <viewController id="RJI-b9-WEB" customClass="SponsorsViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7b8-UY-DgC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="xwl-ds-cMP">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="496"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="502"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -415,7 +435,7 @@ Our event is open to the public, including men and women. Students under 18 must
                                                     <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <color key="backgroundColor" red="0.81960784310000001" green="0.82352941180000006" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="14"/>
                                                     <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -478,11 +498,11 @@ Our event is open to the public, including men and women. Students under 18 must
             <objects>
                 <viewController id="rZx-PC-Eds" customClass="BiosViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0KW-L7-jbp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yQh-Ij-mf5">
-                                <rect key="frame" x="16" y="0.0" width="343" height="496"/>
+                                <rect key="frame" x="16" y="0.0" width="343" height="500"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LrP-fb-wBY">
                                     <size key="itemSize" width="161" height="220"/>
@@ -505,14 +525,14 @@ Our event is open to the public, including men and women. Students under 18 must
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMN-QT-kDp">
-                                                    <rect key="frame" x="20" y="117.5" width="121" height="21.5"/>
-                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="15"/>
+                                                    <rect key="frame" x="20" y="118" width="121" height="18"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="15"/>
                                                     <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="top" horizontalHuggingPriority="251" text="Label is hkdshf  kdsjhf khadsjkf djksa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gz5-l8-yST">
-                                                    <rect key="frame" x="20" y="143" width="121" height="44"/>
-                                                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                                    <rect key="frame" x="20" y="140" width="121" height="47"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="15"/>
                                                     <color key="textColor" red="0.53725490200000003" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -570,7 +590,7 @@ Our event is open to the public, including men and women. Students under 18 must
             <objects>
                 <viewController id="N0K-0T-lLd" customClass="BioDetailViewController" customModule="TechItOut2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VAN-ET-aXb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="548.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tXJ-uf-0Qr">
@@ -581,17 +601,17 @@ Our event is open to the public, including men and women. Students under 18 must
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aKz-6s-1GT">
-                                <rect key="frame" x="16" y="204.5" width="343" height="271.5"/>
+                                <rect key="frame" x="16" y="201" width="343" height="281"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LM1-PL-Zod">
-                                <rect key="frame" x="16" y="168" width="343" height="20.5"/>
-                                <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="14"/>
+                                <rect key="frame" x="16" y="168" width="343" height="17"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="14"/>
                                 <color key="textColor" red="0.3294117647" green="0.34509803919999998" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -631,8 +651,8 @@ Our event is open to the public, including men and women. Students under 18 must
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.1058823529" green="0.56078431370000004" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.10588235294117647" green="0.5607843137254902" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="7Mt-1Y-XSb" kind="relationship" relationship="viewControllers" id="a3F-fi-3VK"/>
@@ -653,16 +673,16 @@ Our event is open to the public, including men and women. Students under 18 must
                     <tabBarItem key="tabBarItem" title="Info" image="about" selectedImage="about" id="6z9-8W-DaZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="YSR-v7-VJz">
-                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="98.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.69411764705882351" green="0.27058823529411763" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.93725490196078431" green="0.70196078431372544" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
-                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="40"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
@@ -682,15 +702,15 @@ Our event is open to the public, including men and women. Students under 18 must
                     <tabBarItem key="tabBarItem" title="Schedule" image="schedule" selectedImage="schedule" id="AgD-t2-g9Z"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="EqW-xa-qWo">
-                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="98.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.30588235294117649" green="0.35686274509803922" blue="0.62352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.93725490199999995" green="0.70196078429999997" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
-                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="40"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
@@ -710,16 +730,16 @@ Our event is open to the public, including men and women. Students under 18 must
                     <tabBarItem key="tabBarItem" title="Locate" image="locate" selectedImage="locate" id="FRu-Sy-GQU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="pND-AC-irs">
-                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="98.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.92941176470588238" green="0.078431372549019607" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.93725490199999995" green="0.70196078429999997" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
-                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="40"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
@@ -739,15 +759,15 @@ Our event is open to the public, including men and women. Students under 18 must
                     <tabBarItem key="tabBarItem" title="Sponsors" image="sponsor" selectedImage="sponsor" id="YE7-Bd-3m1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="3tO-xq-va6">
-                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="98.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.24705882352941178" green="0.76862745098039209" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.93725490199999995" green="0.70196078429999997" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
-                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="40"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
@@ -767,15 +787,15 @@ Our event is open to the public, including men and women. Students under 18 must
                     <tabBarItem key="tabBarItem" title="Bios" image="bios" selectedImage="bios" id="TvR-mD-ppP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="mTU-yy-DIv">
-                        <rect key="frame" x="0.0" y="20" width="375" height="102"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="98.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.69411764710000001" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.93725490199999995" green="0.70196078429999997" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
-                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="40"/>
+                            <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="40"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
@@ -793,10 +813,8 @@ Our event is open to the public, including men and women. Students under 18 must
         <image name="about" width="28" height="28"/>
         <image name="bios" width="28" height="28"/>
         <image name="locate" width="28" height="28"/>
-        <image name="map" width="727" height="473"/>
-        <image name="mbrennan_letter" width="610" height="731"/>
+        <image name="map" width="933" height="654"/>
         <image name="schedule" width="28" height="28"/>
         <image name="sponsor" width="28" height="28"/>
-        <image name="universitymap" width="822" height="560"/>
     </resources>
 </document>

@@ -12,13 +12,13 @@ import SafariServices
 class LocateViewController: UIViewController {
 
     @IBAction func navigateToRegister(_ sender: Any) {
-        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07ef910bkua2d2fc1c&oseq=&c=&ch=")!)
+        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07eg8v711o924e7de0&oseq=&c=&ch=")!)
         self.present(sfViewController, animated: true, completion: nil)
     }
     
     @IBAction func openMap(_ sender: UIButton) {
         let baseUrl: String = "http://maps.apple.com/?q="
-        let encodedName = "Villanova University, 800 E. Lancaster Ave, Villanova, PA 19085".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+        let encodedName = "201 North 17th Street, Philadelphia, Pennsylvania,19103,USA".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         let finalUrl = baseUrl + encodedName
         if let url = URL(string: finalUrl)
         {

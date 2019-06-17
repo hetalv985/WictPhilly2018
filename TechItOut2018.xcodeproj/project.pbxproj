@@ -15,6 +15,10 @@
 		3D065C41207955BF00137AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C3F207955BF00137AE2 /* Main.storyboard */; };
 		3D065C43207955BF00137AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C42207955BF00137AE2 /* Assets.xcassets */; };
 		3D065C46207955BF00137AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D065C44207955BF00137AE2 /* LaunchScreen.storyboard */; };
+		3D161A1422B6C9D9009983CB /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D161A1022B6C9D9009983CB /* Gotham-Bold.otf */; };
+		3D161A1522B6C9D9009983CB /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D161A1122B6C9D9009983CB /* Gotham-Light.otf */; };
+		3D161A1622B6C9D9009983CB /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D161A1222B6C9D9009983CB /* Gotham-Book.otf */; };
+		3D161A1722B6C9D9009983CB /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D161A1322B6C9D9009983CB /* Gotham-Medium.otf */; };
 		3D2332F920E0835D00845A12 /* sponsors.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D2332F820E0835D00845A12 /* sponsors.json */; };
 		3D2332FB20E0838400845A12 /* Sponsors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2332FA20E0838400845A12 /* Sponsors.swift */; };
 		3D2332FD20E083C100845A12 /* Sponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2332FC20E083C100845A12 /* Sponsor.swift */; };
@@ -27,18 +31,6 @@
 		3DBB0FB52083DD7F00B223A3 /* BiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBB0FB42083DD7F00B223A3 /* BiosViewController.swift */; };
 		3DBB0FB72083DD9300B223A3 /* SponsorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBB0FB62083DD9300B223A3 /* SponsorsViewController.swift */; };
 		3DBB0FB92083DDB700B223A3 /* LocateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBB0FB82083DDB700B223A3 /* LocateViewController.swift */; };
-		3DBB0FC92083ED0A00B223A3 /* Brandon_blk_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FBD2083ED0A00B223A3 /* Brandon_blk_it.otf */; };
-		3DBB0FCA2083ED0A00B223A3 /* Brandon_thin_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FBE2083ED0A00B223A3 /* Brandon_thin_it.otf */; };
-		3DBB0FCB2083ED0A00B223A3 /* Brandon_bld_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FBF2083ED0A00B223A3 /* Brandon_bld_it.otf */; };
-		3DBB0FCC2083ED0A00B223A3 /* Brandon_blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC02083ED0A00B223A3 /* Brandon_blk.otf */; };
-		3DBB0FCD2083ED0A00B223A3 /* Brandon_light_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC12083ED0A00B223A3 /* Brandon_light_it.otf */; };
-		3DBB0FCE2083ED0A00B223A3 /* Brandon_med_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC22083ED0A00B223A3 /* Brandon_med_it.otf */; };
-		3DBB0FCF2083ED0A00B223A3 /* Brandon_light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC32083ED0A00B223A3 /* Brandon_light.otf */; };
-		3DBB0FD02083ED0A00B223A3 /* Brandon_thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC42083ED0A00B223A3 /* Brandon_thin.otf */; };
-		3DBB0FD12083ED0A00B223A3 /* Brandon_bld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC52083ED0A00B223A3 /* Brandon_bld.otf */; };
-		3DBB0FD22083ED0A00B223A3 /* Brandon_med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC62083ED0A00B223A3 /* Brandon_med.otf */; };
-		3DBB0FD32083ED0A00B223A3 /* Brandon_reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC72083ED0A00B223A3 /* Brandon_reg.otf */; };
-		3DBB0FD42083ED0A00B223A3 /* Brandon_reg_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB0FC82083ED0A00B223A3 /* Brandon_reg_it.otf */; };
 		3DC057AF20EC66A00059C04E /* UniversityMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC057AE20EC66A00059C04E /* UniversityMapViewController.swift */; };
 		3DC057B120ED1A140059C04E /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC057B020ED1A140059C04E /* ThankYouViewController.swift */; };
 		3DEC172020CDD309005CF040 /* Bios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC171F20CDD309005CF040 /* Bios.swift */; };
@@ -55,6 +47,10 @@
 		3D065C42207955BF00137AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D065C45207955BF00137AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D065C47207955BF00137AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D161A1022B6C9D9009983CB /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		3D161A1122B6C9D9009983CB /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		3D161A1222B6C9D9009983CB /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		3D161A1322B6C9D9009983CB /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.otf"; sourceTree = "<group>"; };
 		3D2332F820E0835D00845A12 /* sponsors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sponsors.json; sourceTree = "<group>"; };
 		3D2332FA20E0838400845A12 /* Sponsors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sponsors.swift; sourceTree = "<group>"; };
 		3D2332FC20E083C100845A12 /* Sponsor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sponsor.swift; sourceTree = "<group>"; };
@@ -67,18 +63,6 @@
 		3DBB0FB42083DD7F00B223A3 /* BiosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiosViewController.swift; sourceTree = "<group>"; };
 		3DBB0FB62083DD9300B223A3 /* SponsorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsViewController.swift; sourceTree = "<group>"; };
 		3DBB0FB82083DDB700B223A3 /* LocateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateViewController.swift; sourceTree = "<group>"; };
-		3DBB0FBD2083ED0A00B223A3 /* Brandon_blk_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_blk_it.otf; sourceTree = "<group>"; };
-		3DBB0FBE2083ED0A00B223A3 /* Brandon_thin_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_thin_it.otf; sourceTree = "<group>"; };
-		3DBB0FBF2083ED0A00B223A3 /* Brandon_bld_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_bld_it.otf; sourceTree = "<group>"; };
-		3DBB0FC02083ED0A00B223A3 /* Brandon_blk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_blk.otf; sourceTree = "<group>"; };
-		3DBB0FC12083ED0A00B223A3 /* Brandon_light_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_light_it.otf; sourceTree = "<group>"; };
-		3DBB0FC22083ED0A00B223A3 /* Brandon_med_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_med_it.otf; sourceTree = "<group>"; };
-		3DBB0FC32083ED0A00B223A3 /* Brandon_light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_light.otf; sourceTree = "<group>"; };
-		3DBB0FC42083ED0A00B223A3 /* Brandon_thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_thin.otf; sourceTree = "<group>"; };
-		3DBB0FC52083ED0A00B223A3 /* Brandon_bld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_bld.otf; sourceTree = "<group>"; };
-		3DBB0FC62083ED0A00B223A3 /* Brandon_med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_med.otf; sourceTree = "<group>"; };
-		3DBB0FC72083ED0A00B223A3 /* Brandon_reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg.otf; sourceTree = "<group>"; };
-		3DBB0FC82083ED0A00B223A3 /* Brandon_reg_it.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brandon_reg_it.otf; sourceTree = "<group>"; };
 		3DC057AE20EC66A00059C04E /* UniversityMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityMapViewController.swift; sourceTree = "<group>"; };
 		3DC057B020ED1A140059C04E /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
 		3DEC171F20CDD309005CF040 /* Bios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bios.swift; sourceTree = "<group>"; };
@@ -185,18 +169,10 @@
 		3DBB0FBC2083ECDE00B223A3 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				3DBB0FBF2083ED0A00B223A3 /* Brandon_bld_it.otf */,
-				3DBB0FC52083ED0A00B223A3 /* Brandon_bld.otf */,
-				3DBB0FBD2083ED0A00B223A3 /* Brandon_blk_it.otf */,
-				3DBB0FC02083ED0A00B223A3 /* Brandon_blk.otf */,
-				3DBB0FC12083ED0A00B223A3 /* Brandon_light_it.otf */,
-				3DBB0FC32083ED0A00B223A3 /* Brandon_light.otf */,
-				3DBB0FC22083ED0A00B223A3 /* Brandon_med_it.otf */,
-				3DBB0FC62083ED0A00B223A3 /* Brandon_med.otf */,
-				3DBB0FC82083ED0A00B223A3 /* Brandon_reg_it.otf */,
-				3DBB0FC72083ED0A00B223A3 /* Brandon_reg.otf */,
-				3DBB0FBE2083ED0A00B223A3 /* Brandon_thin_it.otf */,
-				3DBB0FC42083ED0A00B223A3 /* Brandon_thin.otf */,
+				3D161A1022B6C9D9009983CB /* Gotham-Bold.otf */,
+				3D161A1222B6C9D9009983CB /* Gotham-Book.otf */,
+				3D161A1122B6C9D9009983CB /* Gotham-Light.otf */,
+				3D161A1322B6C9D9009983CB /* Gotham-Medium.otf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -284,24 +260,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBB0FCB2083ED0A00B223A3 /* Brandon_bld_it.otf in Resources */,
 				3D065C46207955BF00137AE2 /* LaunchScreen.storyboard in Resources */,
-				3DBB0FD42083ED0A00B223A3 /* Brandon_reg_it.otf in Resources */,
+				3D161A1422B6C9D9009983CB /* Gotham-Bold.otf in Resources */,
 				3DAC380820BA1B37003FFE67 /* schedule.json in Resources */,
 				3D2332F920E0835D00845A12 /* sponsors.json in Resources */,
-				3DBB0FCD2083ED0A00B223A3 /* Brandon_light_it.otf in Resources */,
-				3DBB0FCC2083ED0A00B223A3 /* Brandon_blk.otf in Resources */,
-				3DBB0FD02083ED0A00B223A3 /* Brandon_thin.otf in Resources */,
-				3DBB0FD22083ED0A00B223A3 /* Brandon_med.otf in Resources */,
-				3DBB0FCE2083ED0A00B223A3 /* Brandon_med_it.otf in Resources */,
-				3DBB0FD32083ED0A00B223A3 /* Brandon_reg.otf in Resources */,
-				3DBB0FC92083ED0A00B223A3 /* Brandon_blk_it.otf in Resources */,
+				3D161A1722B6C9D9009983CB /* Gotham-Medium.otf in Resources */,
+				3D161A1522B6C9D9009983CB /* Gotham-Light.otf in Resources */,
 				3D065C43207955BF00137AE2 /* Assets.xcassets in Resources */,
-				3DBB0FCA2083ED0A00B223A3 /* Brandon_thin_it.otf in Resources */,
+				3D161A1622B6C9D9009983CB /* Gotham-Book.otf in Resources */,
 				3D065C41207955BF00137AE2 /* Main.storyboard in Resources */,
-				3DBB0FCF2083ED0A00B223A3 /* Brandon_light.otf in Resources */,
 				3DAC380720BA1B37003FFE67 /* bios.json in Resources */,
-				3DBB0FD12083ED0A00B223A3 /* Brandon_bld.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

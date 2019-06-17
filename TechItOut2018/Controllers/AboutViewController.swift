@@ -12,7 +12,7 @@ import SafariServices
 class AboutViewController: UIViewController {
 
     @IBAction func navigateToRegister(_ sender: Any) {
-        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07ef910bkua2d2fc1c&oseq=&c=&ch=")!)
+        let sfViewController = SFSafariViewController(url: URL(string: "https://events.r20.constantcontact.com/register/eventReg?oeidk=a07eg8v711o924e7de0&oseq=&c=&ch=")!)
         self.present(sfViewController, animated: true, completion: nil)
         
     }

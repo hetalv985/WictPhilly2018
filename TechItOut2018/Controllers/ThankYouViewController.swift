@@ -15,7 +15,7 @@ class ThankYouViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.thanksTextView.text = "Very special thanks to these amazing members of WICT of Greater Philadelphia who contributed their many talents, and devoted countless hours of their time to help create and organize WICT Tech It Out 2018: Allison Sims, Brenda Belkin, Chelsea Badeau, Chelsey May, Eileen Murphy, Emily Nikoo, Erin Kelly, Jeanne Ciampa, Jill Formichella, Laila Imam, Lauren Blevins, Manasa Kashi, Marichelle Rocha, Melissa Doogan, Nancy Rieti, Nidhi Desai, Stephanie Higgins. And thanks to TechWomen Philly.  \n\nIn this Age of Voice Control--print is still important. The Greater Philadelphia Chapter of WICT would like to recognize our amazing in-kind designer Signature for the beautiful branding and design work in support of Tech It Out 2018."
+        self.thanksTextView.text = "Very special thanks to these amazing members of WICT of Greater Philadelphia who contributed their many talents, and devoted countless hours of their time to help create and organize WICT Tech It Out 2019: Adreck McDonald, Brenda Belkin, Chelsea Badeau, Chelsey May, Daneen Baird, Erin McConchie, Laila Imam, Liz Levander, Mallika Krishnamoorthy, Mary Brocato, Michele Corsini, Ruchita Patel, Rajashree Srivatsan, Sonya Patton, Teresa Talese."
     }
 
     override func didReceiveMemoryWarning() {

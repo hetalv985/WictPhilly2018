@@ -4,36 +4,35 @@
 	"Sponsors":["arris.png","cisco.png"]
 },
 {
-	"Title":"WICT Tech It Out Industry Partners",
-	"Sponsors":["kaitz.png","namic.png"]
-},
-{
 	"Title":"WICT Of Greater Philadelphia Premier Sponsors",
-	"Sponsors":["cisco.png","comcastbusiness.png","comcastfreewheel.png","tpx.png"]
+	"Sponsors":["comcast_business_logo.png","freewheel-spotlight_logo.png","signature_logo.png"]
 },
 {
 	"Title":"WICT Of Greater Philadelphia Platinum Sponsors",
-	"Sponsors":["arris.png","pwc.png","pluralsight","qvc.png"]
+    "Sponsors":["arris_logo.png",
+        "cisco_logo.png",
+        "ernstyoung_logo.png",
+        "qurate_networks_logo.png",
+    "scteisbe_logo.jpg"]
 },
- {
- "Title":"",
- "Sponsors":["scte.png","signature.png","",""]
- },
 {
 	"Title":"WICT Of Greater Philadelphia Gold Sponsors",
-	"Sponsors":["ae.png","amdocs.png","csg.png","eplus.png"]
+    "Sponsors":["amdocs_logo.png",
+        "eplus_logo.png",
+        "espn_logo.png",
+        "hbo_logo.png",
+        "optia_logo.png",
+        "pureintegration_logo.png",
+        "pwc_logo.png",
+    "comcast_univ_logo.png"]
 },
 {
- "Title":"",
- "Sponsors":["espn.png","hbo.png","juniper.png","optia.png"]
- },
- {
- "Title":"",
- "Sponsors":["pureintegration.png","","",""]
- },
-{
 	"Title":"WICT Of Greater Philadelphia Silver Sponsors",
-	"Sponsors":["partners.png","stafftech.png","mediacopy.png",""]
+    "Sponsors":["ae_networks_logo.png",
+        "juniper_networks_logo.png",
+        "partners_consulting_logo.png",
+        "pluralsight_logo.png",
+    "vsoft_logo.png"]
 }
 
 ]
